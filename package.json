@@ -1,0 +1,29 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Portafolio de Luis Chicaiza desarrollador web",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luischicaizaDev/portafolio.git"
+  },
+  "keywords": [
+    "desarrollador",
+    "programador"
+  ],
+  "author": "Luis Chicaiza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luischicaizaDev/portafolio/issues"
+  },
+  "homepage": "https://github.com/luischicaizaDev/portafolio#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.77.6"
+  }
+}
