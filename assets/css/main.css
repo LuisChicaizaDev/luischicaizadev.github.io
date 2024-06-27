@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/*@forward desde este index apunta a los demás archivos 
+de la carpeta para compilarlo
+*/
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*1 rem = 10px */
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem; /*16px*/
+  line-height: 1.6;
+  color: #FFF;
+  background-color: #292929;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Goldman", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(3.6rem, 1rem + 3.8vw, 5.2rem);
+}
+
+h2 {
+  font-size: clamp(3.2rem, 1rem + 3.5vw, 4.4rem);
+}
+
+h3 {
+  font-size: clamp(2.6rem, 1rem + 2.4vw, 3.2rem);
+}
+
+h4 {
+  font-size: clamp(2rem, 1rem + 1.9vw, 2.8rem);
+  color: #c6d5db;
+}
+
+h5 {
+  font-size: clamp(1.8rem, 1rem + 1.4vw, 2.4rem);
+  color: #c6d5db;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: clamp(1.59rem, 1rem + 1vw, 1.78rem);
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+  text-underline-offset: 2px;
+}
+
+.container {
+  margin: 0 auto;
+  width: min(100%, 140rem);
+}
+
+.show {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-star {
+  text-align: start;
+}
+
+.text-end {
+  text-align: end;
+}
