@@ -1,11 +1,12 @@
 @use 'variables' as v;
+@use 'mixins' as m;
 
 //Reset
 *, *::before, *::after{
     box-sizing: inherit;
 }
 
-
+//Global 
 html{
     box-sizing: border-box;
     font-size: 62.5%; /*1 rem = 10px */
@@ -70,9 +71,12 @@ a{
 }
 
 //Utilities
-.container{
+.my-container{
     margin: 0 auto;
     width: min(100%, 140rem);
+}
+.container-fluid{
+    padding: 0 !important;
 }
 
 .show{
@@ -91,4 +95,21 @@ a{
 }
 .text-end{
     text-align: end;
+}
+.paddings{
+    @include m.padding-mobile(24px);
+
+    @include m.tablet{
+        @include m.padding-tablet(40px);
+    }
+    
+    @include m.desktop{
+        @include m.padding-desktop(64px);
+    }
+}
+.bg-gray-950{
+    background-color: v.$steel-gray-950;
+}
+.color-khaki{
+    color: v.$dark-khaki;
 }

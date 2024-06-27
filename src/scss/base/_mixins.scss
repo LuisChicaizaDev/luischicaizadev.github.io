@@ -1,0 +1,45 @@
+@use 'variables' as v;
+
+//media queries
+@mixin mobile{
+    @media (min-width: v.$mobile) {
+        @content;
+    }
+}
+
+@mixin tablet{
+    @media (min-width: v.$tablet) {
+        @content;
+    }
+}
+
+@mixin desktop{
+    @media (min-width: v.$desktop) {
+        @content;
+    }
+}
+
+
+@mixin desktopXl{
+    @media (min-width: v.$desktopXl) {
+        @content;
+    }
+}
+
+//resetear estilos listas
+@mixin reset-lista{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+//paddings
+@mixin padding-desktop($vertical){
+    padding: $vertical 80px;
+}
+@mixin padding-tablet($vertical){
+    padding: $vertical 32px;
+}
+@mixin padding-mobile($vertical){
+    padding: $vertical 16px;
+}

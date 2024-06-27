@@ -74,9 +74,13 @@ a {
   text-underline-offset: 2px;
 }
 
-.container {
+.my-container {
   margin: 0 auto;
   width: min(100%, 140rem);
+}
+
+.container-fluid {
+  padding: 0 !important;
 }
 
 .show {
@@ -97,4 +101,26 @@ a {
 
 .text-end {
   text-align: end;
+}
+
+.paddings {
+  padding: 24px 16px;
+}
+@media (min-width: 768px) {
+  .paddings {
+    padding: 40px 32px;
+  }
+}
+@media (min-width: 992px) {
+  .paddings {
+    padding: 64px 80px;
+  }
+}
+
+.bg-gray-950 {
+  background-color: #2d3239;
+}
+
+.color-khaki {
+  color: #C3AA72;
 }
