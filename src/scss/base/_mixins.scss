@@ -43,3 +43,32 @@
 @mixin padding-mobile($vertical){
     padding: $vertical 16px;
 }
+
+
+//buttons
+@mixin button-common-styles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: v.$w-semiBold;
+    border-radius: 12px;
+    font-size: clamp(1.4rem, 1rem + 1vw, 1.5rem);
+    text-align: center;
+}
+
+@mixin solid-button-styles{
+    background-color: v.$dark-khaki;
+    color: v.$black;
+    //width definimos en los globales
+    height: 46px;
+    transition: background-color .4s ease-in;
+
+    &:hover{
+        background-color: v.$black;
+        color: v.$white;
+    }
+
+    &:active{
+        background-color: v.$steel-gray-950;
+    }
+}

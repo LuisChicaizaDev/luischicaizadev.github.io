@@ -133,6 +133,33 @@ a:hover {
   color: #C3AA72;
 }
 
+.btn-khaki {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  border-radius: 12px;
+  font-size: clamp(1.4rem, 1rem + 1vw, 1.5rem);
+  text-align: center;
+  background-color: #C3AA72;
+  color: #292929;
+  height: 46px;
+  transition: background-color 0.4s ease-in;
+  width: 160px;
+}
+.btn-khaki:hover {
+  background-color: #292929;
+  color: #FFF;
+}
+.btn-khaki:active {
+  background-color: #2d3239;
+}
+@media (min-width: 992px) {
+  .btn-khaki {
+    width: 180px;
+  }
+}
+
 /*@forward desde este index apunta a los demás archivos 
 de la carpeta para compilarlo
 */

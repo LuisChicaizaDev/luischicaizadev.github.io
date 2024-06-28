@@ -120,3 +120,14 @@ a{
 .color-khaki{
     color: v.$dark-khaki;
 }
+
+//buttons
+.btn-khaki{
+    @include m.button-common-styles;
+    @include m.solid-button-styles;
+    width: 160px;
+
+    @include m.desktop{
+        width: 180px;
+    }
+}
