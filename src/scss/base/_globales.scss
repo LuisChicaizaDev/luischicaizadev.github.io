@@ -50,7 +50,7 @@ h5{
 p{
     font-family: v.$font-paragraph;
     font-weight: v.$w-regular;
-    font-size: clamp(1.59rem, 1rem + 1vw, 1.78rem);
+    font-size: clamp(1.5rem, 1rem + 1vw, 1.78rem);
 }
 
 img{
@@ -68,6 +68,11 @@ a{
     text-decoration: none;
     color: v.$white;
     text-underline-offset: 2px;
+
+    &:hover{
+        color: v.$dark-khaki !important;
+        transition: color 0.2s linear;
+    }
 }
 
 //Utilities
@@ -78,7 +83,9 @@ a{
 .container-fluid{
     padding: 0 !important;
 }
-
+.row{
+    margin: 0 !important;
+}
 .show{
     display: block;
 }

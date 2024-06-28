@@ -52,7 +52,7 @@ h5 {
 p {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: clamp(1.59rem, 1rem + 1vw, 1.78rem);
+  font-size: clamp(1.5rem, 1rem + 1vw, 1.78rem);
 }
 
 img {
@@ -73,6 +73,10 @@ a {
   color: #FFF;
   text-underline-offset: 2px;
 }
+a:hover {
+  color: #C3AA72 !important;
+  transition: color 0.2s linear;
+}
 
 .my-container {
   margin: 0 auto;
@@ -81,6 +85,10 @@ a {
 
 .container-fluid {
   padding: 0 !important;
+}
+
+.row {
+  margin: 0 !important;
 }
 
 .show {
@@ -123,4 +131,71 @@ a {
 
 .color-khaki {
   color: #C3AA72;
+}
+
+/*@forward desde este index apunta a los demás archivos 
+de la carpeta para compilarlo
+*/
+.header .my-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+@media (min-width: 768px) {
+  .header .my-nav {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.4rem;
+  }
+}
+.header .my-nav .nav__logo {
+  width: 50px;
+}
+.header .my-nav .nav__list {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 1.2rem !important;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: rgba(245, 247, 248, 0.15);
+  backdrop-filter: blur(2px);
+  border-radius: 12px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .header .my-nav .nav__list {
+    gap: 3.2rem;
+  }
+}
+.header .my-nav .nav__list .nav__link {
+  font-size: clamp(1.4rem, 1rem + 1vw, 1.78rem);
+}
+@media (min-width: 768px) {
+  .header .my-nav .nav__list .nav__link {
+    padding: 0 0.8rem;
+  }
+}
+
+.intro {
+  display: flex;
+  row-gap: 2.4rem;
+}
+.intro .intro__nombre {
+  font-family: "Goldman", sans-serif;
+  font-weight: 700;
+  font-size: clamp(2.6rem, 1rem + 2.4vw, 3.6rem);
+}
+.intro .intro__avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+.intro .intro__avatar .icons__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
