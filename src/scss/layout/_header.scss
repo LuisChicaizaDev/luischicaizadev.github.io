@@ -54,6 +54,14 @@
         font-weight: v.$w-bold;
         font-size: clamp(2.6rem, 1rem + 2.4vw, 3.6rem);
     }
+
+    .intro__button{
+        display: none;
+        @include m.tablet{
+            display: flex;
+        }
+    }
+
     .intro__avatar{
         display: flex;
         flex-direction: column;
@@ -62,6 +70,13 @@
 
         .icons__list{
             @include m.reset-lista;
+        }
+
+        .intro__button{
+            display: flex;
+            @include m.tablet{
+                display: none !important;
+            }
         }
     }
 

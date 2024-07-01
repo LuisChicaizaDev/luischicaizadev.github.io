@@ -144,7 +144,7 @@ a:hover {
   background-color: #C3AA72;
   color: #292929;
   height: 46px;
-  transition: background-color 0.4s ease-in;
+  transition: background-color 0.4s ease-in-out;
   width: 160px;
 }
 .btn-khaki:hover {
@@ -152,11 +152,38 @@ a:hover {
   color: #FFF;
 }
 .btn-khaki:active {
-  background-color: #2d3239;
+  background-color: #4e5861;
 }
 @media (min-width: 992px) {
   .btn-khaki {
     width: 180px;
+  }
+}
+
+.btn-gray {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  border-radius: 12px;
+  font-size: clamp(1.4rem, 1rem + 1vw, 1.5rem);
+  text-align: center;
+  background-color: #99acbb;
+  color: #2d3239;
+  height: 46px;
+  transition: background-color 0.4s ease-in-out;
+  width: 140px;
+}
+.btn-gray:hover {
+  background-color: #c6d5db;
+  color: #2d3239 !important;
+}
+.btn-gray:active {
+  background-color: #4e5861;
+}
+@media (min-width: 992px) {
+  .btn-gray {
+    width: 160px;
   }
 }
 
@@ -215,6 +242,14 @@ de la carpeta para compilarlo
   font-weight: 700;
   font-size: clamp(2.6rem, 1rem + 2.4vw, 3.6rem);
 }
+.intro .intro__button {
+  display: none;
+}
+@media (min-width: 768px) {
+  .intro .intro__button {
+    display: flex;
+  }
+}
 .intro .intro__avatar {
   display: flex;
   flex-direction: column;
@@ -225,4 +260,12 @@ de la carpeta para compilarlo
   margin: 0;
   padding: 0;
   list-style: none;
+}
+.intro .intro__avatar .intro__button {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .intro .intro__avatar .intro__button {
+    display: none !important;
+  }
 }

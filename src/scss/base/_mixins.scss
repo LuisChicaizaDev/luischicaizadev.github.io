@@ -56,12 +56,12 @@
     text-align: center;
 }
 
-@mixin solid-button-styles{
+@mixin solid-button-khaki{
     background-color: v.$dark-khaki;
     color: v.$black;
     //width definimos en los globales
     height: 46px;
-    transition: background-color .4s ease-in;
+    transition: background-color .4s ease-in-out;
 
     &:hover{
         background-color: v.$black;
@@ -69,6 +69,22 @@
     }
 
     &:active{
-        background-color: v.$steel-gray-950;
+        background-color: v.$steel-gray-900;
+    }
+}
+@mixin solid-button-gray{
+    background-color: v.$steel-gray-500;
+    color: v.$steel-gray-950;
+    //width definimos en los globales
+    height: 46px;
+    transition: background-color .4s ease-in-out;
+
+    &:hover{
+        background-color: v.$steel-gray-300;
+        color: v.$steel-gray-950 !important;
+    }
+
+    &:active{
+        background-color: v.$steel-gray-900;
     }
 }
