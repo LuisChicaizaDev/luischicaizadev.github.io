@@ -121,7 +121,7 @@ a:hover {
 }
 @media (min-width: 992px) {
   .paddings {
-    padding: 64px 80px;
+    padding: 72px 80px;
   }
 }
 
@@ -268,4 +268,12 @@ de la carpeta para compilarlo
   .intro .intro__avatar .intro__button {
     display: none !important;
   }
+}
+
+.about-me .about-me__info,
+.about-me .about-me__skills {
+  margin: 4rem 0;
+}
+.about-me .about-me__title {
+  margin-bottom: 5.6rem;
 }

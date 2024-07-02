@@ -1,0 +1,13 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.about-me{
+    .about-me__info,
+    .about-me__skills{
+        margin: 4rem 0;
+    }
+    .about-me__title{
+        margin-bottom: 5.6rem;
+    }
+
+}

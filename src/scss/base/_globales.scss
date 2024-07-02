@@ -111,7 +111,7 @@ a{
     }
     
     @include m.desktop{
-        @include m.padding-desktop(64px);
+        @include m.padding-desktop(72px);
     }
 }
 .bg-gray-950{
