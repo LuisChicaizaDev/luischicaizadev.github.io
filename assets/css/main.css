@@ -251,24 +251,66 @@ de la carpeta para compilarlo
     display: flex;
   }
 }
-.intro .intro__avatar {
+
+.intro__avatar {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2.4rem;
+  gap: 1.6rem;
 }
-.intro .intro__avatar .icons__list {
+.intro__avatar .icons__list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.intro .intro__avatar .intro__button {
+.intro__avatar .icons__link {
+  padding: 0.8rem;
+}
+.intro__avatar .intro__button {
   display: flex;
+  margin: 2.4rem 0;
 }
 @media (min-width: 768px) {
-  .intro .intro__avatar .intro__button {
+  .intro__avatar .intro__button {
     display: none !important;
   }
+}
+
+.my-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.my-tooltip .tooltiptext {
+  visibility: hidden;
+  width: 12rem;
+  background-color: #5c6877;
+  color: #FFF;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  text-align: center;
+  border-radius: 0.8rem;
+  padding: 0.8rem;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.my-tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -0.5rem;
+  border-width: 0.6rem;
+  border-style: solid;
+  border-color: transparent transparent #5c6877 transparent;
+}
+
+.my-tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 @media (min-width: 768px) {
