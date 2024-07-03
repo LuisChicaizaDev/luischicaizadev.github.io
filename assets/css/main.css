@@ -93,7 +93,7 @@ a:hover {
 }
 
 .row {
-  margin: 0 !important;
+  margin: 0 auto;
 }
 
 .show {
@@ -332,4 +332,10 @@ de la carpeta para compilarlo
 .herramientas-icon__item:hover .herramientas-icon__image {
   filter: drop-shadow(0px 0px 10px #afbfca);
   transition: filter 0.2s ease-in;
+}
+
+.experience-work__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
