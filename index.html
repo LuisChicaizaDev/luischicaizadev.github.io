@@ -34,7 +34,7 @@
 
             <ul class="nav__list">
                 <li class="nav__item">
-                    <a href="#" class="nav__link nav__link--active">Sobre mí</a>
+                    <a href="#" class="nav__link nav__link--active">Sobre mi</a>
                 </li>
                 <li class="nav__item">
                     <a href="#" class="nav__link">Expreciencia</a>
@@ -50,7 +50,7 @@
 
         <!--Header content-->
         <div class="intro row paddings">
-            <div class="intro__info col-12 col-md-7 d-flex flex-column justify-content-center">
+            <div class="intro__info col-12 col-md-7 d-flex flex-column justify-content-center gap-4">
                 <p class="intro__nombre">
                     ¡Hola! <span class="color-khaki">Soy Luis</span>
                 </p>
@@ -108,22 +108,128 @@
     <!--About me-->
     <section class="about-me my-container paddings">
 
-        <div class="row">
-            <div class="about-me__info col-12 col-xl-6">
+        <div class="row justify-content-between">
+            <!--Sobre mi-->
+            <div class="about-me__info col-12 col-xl-5">
                 <h2 class="about-me__title text-center">Sobre mi<span class="color-khaki">.</span></h2>
                 <p class="about-me__text my-5">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aperiam consequuntur veniam hic excepturi suscipit, 
                     odio id rerum facilis asperiores ullam voluptas quos eveniet vero ex inventore eligendi ipsa autem.
                 </p>
+
+                <div class="about-me__subtitle d-flex gap-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="39" viewBox="0 0 36 39" fill="none" class="about-me__icon about-me__icon--formacion">
+                        <path d="M21.5324 2H10.8783C9.89766 2 9.10266 2.795 9.10266 3.77567V7.32702C9.10266 8.3077 9.89766 9.1027 10.8783 9.1027H21.5324C22.5131 9.1027 23.3081 8.3077 23.3081 7.32702V3.77567C23.3081 2.795 22.5131 2 21.5324 2Z" stroke="#C3AA72" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9.1027 5.55139H5.55135C4.60947 5.55139 3.70617 5.92555 3.04017 6.59156C2.37416 7.25756 2 8.16086 2 9.10274V33.9622C2 34.9041 2.37416 35.8074 3.04017 36.4734C3.70617 37.1394 4.60947 37.5135 5.55135 37.5135H26.8594C27.8013 37.5135 28.7046 37.1394 29.3706 36.4734C30.0366 35.8074 30.4108 34.9041 30.4108 33.9622V33.0743M23.3081 5.55139H26.8594C27.4822 5.55203 28.0939 5.71643 28.6331 6.02809C29.1722 6.33976 29.62 6.78773 29.9314 7.32707M9.1027 30.4108H10.8784" stroke="#C3AA72" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M27.5697 15.4952C28.2761 14.7888 29.2342 14.3919 30.2332 14.3919C31.2322 14.3919 32.1903 14.7888 32.8967 15.4952C33.6032 16.2016 34 17.1597 34 18.1587C34 19.1577 33.6032 20.1158 32.8967 20.8222L25.0838 28.6352L17.9811 30.4108L19.7568 23.3081L27.5697 15.4952Z" stroke="#C3AA72" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <h3>
+                        Formación
+                    </h3>
+                </div>
                 <p class="about-me__text my-5">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aperiam consequuntur veniam hic excepturi suscipit, 
                     odio id rerum facilis asperiores ullam voluptas quos eveniet vero ex inventore eligendi ipsa autem.
                 </p>
-            </div>
-            <div class="about-me__skills col-12 col-xl-6">
+                <p class="about-me__text my-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aperiam consequuntur veniam hic excepturi suscipit.
+                </p>
+            </div><!--END Sobre mi-->
+            
+            <!--Skills-->
+            <div class="about-me__skills col-12 col-xl-5 d-flex flex-column">
                 <h2 class="about-me__title text-center">Skills<span class="color-khaki">.</span></h2>
+
+            
+                <!--Desarrollo Web-->
+                <div class="desarrollo">
+                    <div class="desarrollo__title d-flex gap-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="34" viewBox="0 0 36 34" fill="none" class="about-me__icon about-me__icon--desarrollo">
+                            <path d="M16.2855 31.6151C15.8032 31.4732 15.3679 31.2044 15.0252 30.8367C14.6824 30.469 14.4446 30.016 14.3368 29.525C14.2292 29.0807 14.0182 28.6681 13.7209 28.3208C13.4237 27.9735 13.0486 27.7012 12.6263 27.5263C12.2039 27.3513 11.7462 27.2785 11.2905 27.3138C10.8347 27.3492 10.3937 27.4916 10.0034 27.7296C7.40463 29.3128 4.42863 26.3385 6.01179 23.738C6.24943 23.3479 6.39166 22.9072 6.42692 22.4517C6.46218 21.9962 6.38946 21.5389 6.21469 21.1168C6.03992 20.6947 5.76802 20.3198 5.42109 20.0226C5.07416 19.7254 4.662 19.5142 4.21811 19.4063C1.26063 18.6888 1.26063 14.4816 4.21811 13.7641C4.6624 13.6565 5.075 13.4455 5.42232 13.1482C5.76963 12.851 6.04186 12.4759 6.21684 12.0536C6.39181 11.6312 6.46459 11.1736 6.42925 10.7178C6.39391 10.262 6.25146 9.821 6.01347 9.43068C4.43032 6.83194 7.40463 3.85594 10.0051 5.4391C11.6893 6.4631 13.872 5.55699 14.3368 3.64541C15.0543 0.687939 19.2615 0.687939 19.9789 3.64541C20.0866 4.08971 20.2976 4.5023 20.5949 4.84962C20.8921 5.19694 21.2672 5.46917 21.6895 5.64414C22.1119 5.81912 22.5695 5.8919 23.0253 5.85656C23.4811 5.82122 23.9221 5.67876 24.3124 5.44078C26.9112 3.85762 29.8872 6.83194 28.304 9.43236C28.0664 9.82252 27.9241 10.2632 27.8889 10.7187C27.8536 11.1742 27.9263 11.6316 28.1011 12.0536C28.2759 12.4757 28.5478 12.8506 28.8947 13.1478C29.2416 13.445 29.6538 13.6562 30.0977 13.7641C32.3074 14.2997 32.8665 16.7856 31.7735 18.3065" stroke="#C3AA72" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M30.6315 31.7431L34 28.3747L30.6315 25.0063M25.5789 25.0063L22.2105 28.3747L25.5789 31.7431M12.1052 16.5852C12.1052 17.9253 12.6376 19.2104 13.5851 20.158C14.5327 21.1055 15.8178 21.6379 17.1579 21.6379C18.4979 21.6379 19.7831 21.1055 20.7306 20.158C21.6782 19.2104 22.2105 17.9253 22.2105 16.5852C22.2105 15.2452 21.6782 13.96 20.7306 13.0125C19.7831 12.0649 18.4979 11.5326 17.1579 11.5326C15.8178 11.5326 14.5327 12.0649 13.5851 13.0125C12.6376 13.96 12.1052 15.2452 12.1052 16.5852Z" stroke="#C3AA72" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <h3 class="desarrollo-item__title">
+                            Desarrollo Web
+                        </h3>
+                    </div>
+
+                    <div class="desarrollo-icon">
+                        <ul class="desarrollo-icon__list">
+                            <li class="desarrollo-icon__item">
+                                <img src="/static/icon-html.svg" class="desarrollo-icon__image" alt="Icono de HTML5">
+                                HTML5
+                            </li>
+                            <li class="desarrollo-icon__item">
+                                <img src="/static/icon-css.svg" class="desarrollo-icon__image" alt="Icono de CSS3">
+                                CSS3
+                            </li>
+                            <li class="desarrollo-icon__item">
+                                <img src="/static/icon-javascript.svg" class="desarrollo-icon__image" alt="Icono de JavaScript">
+                                JavaScript
+                            </li>
+                            <li class="desarrollo-icon__item">
+                                <img src="/static/icon-mysql.svg" class="desarrollo-icon__image" alt="Icono de MySQL">
+                                MySQL
+                            </li>
+                            <li class="desarrollo-icon__item">
+                                <img src="/static/icon-java.svg" class="desarrollo-icon__image" alt="Icono de JAVA">
+                                JAVA
+                            </li>
+                            <li class="desarrollo-icon__item">
+                                <img src="/static/icon-bootstrap.svg" class="desarrollo-icon__image" alt="Icono de Bootstrap">
+                                Bootstrap
+                            </li>
+                            <li class="desarrollo-icon__item">
+                                <img src="/static/icon-sass.svg" class="desarrollo-icon__image" alt="Icono de SASS">
+                                SASS
+                            </li>
+                        </ul>
+                    </div>
+
+                </div><!--END Desarrollo Web-->
+
                 
-            </div>
+                <!--Herramientas-->
+                <div class="herramientas">
+                    <div class="herramientas__title d-flex gap-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="33" viewBox="0 0 36 33" fill="none" class="about-me__icon about-me__icon--herramientas">
+                            <path d="M15.5385 24.4997L13.0769 30.6536M20.4615 24.4997L22.9231 30.6536M10.6154 30.6536H25.3846M19.2308 2.34589V24.4997M8.15385 9.7305H13.0769M8.15385 17.1151H10.6154M32.7692 2.34589H3.23077C2.90435 2.34589 2.5913 2.47556 2.36048 2.70637C2.12967 2.93718 2 3.25024 2 3.57666V23.269C2 23.5954 2.12967 23.9084 2.36048 24.1393C2.5913 24.3701 2.90435 24.4997 3.23077 24.4997H32.7692C33.0957 24.4997 33.4087 24.3701 33.6395 24.1393C33.8703 23.9084 34 23.5954 34 23.269V3.57666C34 3.25024 33.8703 2.93718 33.6395 2.70637C33.4087 2.47556 33.0957 2.34589 32.7692 2.34589Z" stroke="#C3AA72" stroke-width="2.85714" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M19.2307 14.6536L22.2092 12.192C23.0919 11.4616 24.2018 11.062 25.3476 11.062C26.4934 11.062 27.6033 11.4616 28.4861 12.192L33.9999 17.1151" stroke="#C3AA72" stroke-width="2.85714" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <h3 class="herramientas-item__title">
+                            Herramientas
+                        </h3>
+                    </div>
+
+                    <div class="herramientas-icon">
+                        <ul class="herramientas-icon__list">
+                            <li class="herramientas-icon__item">
+                                <img src="/static/icon-wordpress.svg" class="herramientas-icon__image" alt="Icono de WordPress">
+                                WordPress
+                            </li>
+                            <li class="herramientas-icon__item">
+                                <img src="/static/icon-shopify.svg" class="herramientas-icon__image" alt="Icono de Shopify">
+                                Shopify
+                            </li>
+                            <li class="herramientas-icon__item">
+                                <img src="/static/icon-figma.svg" class="herramientas-icon__image" alt="Icono de Figma">
+                                Figma
+                            </li>
+                            <li class="herramientas-icon__item">
+                                <img src="/static/icon-git.svg" class="herramientas-icon__image" alt="Icono de Git">
+                                Git
+                            </li>
+                            <li class="herramientas-icon__item">
+                                <img src="/static/icon-github.svg" class="herramientas-icon__image" alt="Icono de GitHub">
+                                GitHub
+                            </li>
+                        </ul>
+                    </div>
+
+                </div><!--END Herramientas-->
+                
+
+            </div><!--END Skills-->
         </div>
 
     </section><!--END About me-->

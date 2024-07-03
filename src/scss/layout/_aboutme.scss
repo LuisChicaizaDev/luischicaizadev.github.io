@@ -2,6 +2,9 @@
 @use 'base/mixins' as m;
 
 .about-me{
+    @include m.tablet{
+        padding: 40px 88px;
+    }
     .about-me__info,
     .about-me__skills{
         margin: 4rem 0;
@@ -10,4 +13,52 @@
         margin-bottom: 5.6rem;
     }
 
+    .about-me__subtitle{
+        margin-top: 5.6rem;
+    }
+
 }
+
+//Skills
+.herramientas{
+    margin-top: 6.4rem;
+}
+
+.desarrollo-item__title,
+.herramientas__title{
+    margin-bottom: 4rem;
+}
+
+.desarrollo-icon__list,
+.herramientas-icon__list{
+    @include m.reset-lista;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3.2rem;
+
+    @include m.tablet{
+        padding: 0 4.8rem;
+    }
+    @include m.desktop{
+        padding: 0;
+    }
+}
+
+.desarrollo-icon__item,
+.herramientas-icon__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+    
+    &:hover{
+        .desarrollo-icon__image,
+        .herramientas-icon__image{
+            filter: drop-shadow(0px 0px 10px v.$steel-gray-400);
+            transition: filter .2s ease-in;
+        }
+    }
+
+}
+
