@@ -61,6 +61,7 @@
     color: v.$black;
     //width definimos en los globales
     height: 46px;
+    box-shadow: 0 4px 2px v.$steel-gray-800;
     transition: background-color .4s ease-in-out;
 
     &:hover{
@@ -77,6 +78,7 @@
     color: v.$steel-gray-950;
     //width definimos en los globales
     height: 46px;
+    box-shadow: 0 4px 2px v.$steel-gray;
     transition: background-color .4s ease-in-out;
 
     &:hover{
@@ -85,6 +87,6 @@
     }
 
     &:active{
-        background-color: v.$steel-gray-900;
+        background-color: v.$steel-gray;
     }
 }

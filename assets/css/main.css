@@ -145,6 +145,7 @@ a:hover {
   background-color: #C3AA72;
   color: #292929;
   height: 46px;
+  box-shadow: 0 4px 2px #5c6877;
   transition: background-color 0.4s ease-in-out;
   width: 160px;
 }
@@ -172,6 +173,7 @@ a:hover {
   background-color: #99acbb;
   color: #2d3239;
   height: 46px;
+  box-shadow: 0 4px 2px #718093;
   transition: background-color 0.4s ease-in-out;
   width: 140px;
 }
@@ -180,7 +182,7 @@ a:hover {
   color: #2d3239 !important;
 }
 .btn-gray:active {
-  background-color: #4e5861;
+  background-color: #718093;
 }
 @media (min-width: 992px) {
   .btn-gray {
