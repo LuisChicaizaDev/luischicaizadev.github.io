@@ -258,6 +258,9 @@ de la carpeta para compilarlo
   align-items: center;
   gap: 1.6rem;
 }
+.intro__avatar .avatar__image {
+  width: 100%;
+}
 .intro__avatar .icons__list {
   margin: 0;
   padding: 0;
@@ -283,19 +286,21 @@ de la carpeta para compilarlo
 
 .my-tooltip .tooltiptext {
   visibility: hidden;
-  width: 12rem;
-  background-color: #5c6877;
-  color: #FFF;
+  width: 10rem;
+  background-color: #292929;
+  color: #C3AA72;
   font-size: 1.3rem;
+  font-weight: 600;
   line-height: 1.6rem;
   text-align: center;
   border-radius: 0.8rem;
-  padding: 0.8rem;
+  padding: 0.4rem 0.8rem;
   position: absolute;
   z-index: 1;
   top: 150%;
   left: 50%;
   margin-left: -60px;
+  box-shadow: 0 0 0.8rem #8394a8;
 }
 
 .my-tooltip .tooltiptext::after {
@@ -303,10 +308,10 @@ de la carpeta para compilarlo
   position: absolute;
   bottom: 100%;
   left: 50%;
-  margin-left: -0.5rem;
-  border-width: 0.6rem;
+  margin-left: -0.2rem;
+  border-width: 0.7rem;
   border-style: solid;
-  border-color: transparent transparent #5c6877 transparent;
+  border-color: transparent transparent #C3AA72 transparent;
 }
 
 .my-tooltip:hover .tooltiptext {

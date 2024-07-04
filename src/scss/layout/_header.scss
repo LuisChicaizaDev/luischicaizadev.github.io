@@ -69,6 +69,10 @@
     align-items: center;
     gap: 1.6rem;
 
+    .avatar__image{
+        width: 100%;
+    }
+
     .icons__list{
         @include m.reset-lista;
     }
@@ -93,19 +97,21 @@
 
 .my-tooltip .tooltiptext {
     visibility: hidden;
-    width: 12rem;
-    background-color: v.$steel-gray-800;
-    color: v.$white;
+    width: 10rem;
+    background-color: v.$black;
+    color: v.$dark-khaki;
     font-size: 1.3rem;
+    font-weight: v.$w-semiBold;
     line-height: 1.6rem;
     text-align: center;
     border-radius: .8rem;
-    padding: .8rem;
+    padding: .4rem .8rem;
     position: absolute;
     z-index: 1;
     top: 150%;
     left: 50%;
     margin-left: -60px;
+    box-shadow: 0 0 .8rem v.$steel-gray-600;
 }
 
 .my-tooltip .tooltiptext::after {
@@ -113,10 +119,10 @@
     position: absolute;
     bottom: 100%;
     left: 50%;
-    margin-left: -.5rem;
-    border-width: .6rem;
+    margin-left: -.2rem;
+    border-width: .7rem;
     border-style: solid;
-    border-color: transparent transparent v.$steel-gray-800 transparent;
+    border-color: transparent transparent v.$dark-khaki transparent;
 }
 
 .my-tooltip:hover .tooltiptext {
