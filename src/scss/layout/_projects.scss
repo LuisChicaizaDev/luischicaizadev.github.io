@@ -1,0 +1,69 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.projects{
+
+    .projects__title{
+        margin-bottom: 9.6rem;
+    }
+   
+}
+
+.projects__content{
+    .projects__project-title{
+        position: relative;
+        padding-left: 40px;
+
+        &::before{
+            content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 3rem;
+        height: 2rem;
+        background-image: url(/static/linea.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left center;
+        }
+    }
+
+    .projects__column--image{
+        overflow: hidden;
+        border-radius: 2.4rem;
+        padding: 0 !important;
+    }
+    .projects__image{
+        filter: brightness(.6);
+        transition: all 0.5s ease-out;
+        &:hover{
+            filter: brightness(1);
+            transform: scale(1.1);
+        }
+    }
+    .projects__button{
+        width: 100px;
+        box-shadow: none;
+    }
+}
+.projects__column--info{
+    border-radius: 1.6rem;
+    background-color: v.$steel-gray-950;
+    padding: 3.2rem 1.6rem;
+}
+.projects__tags{
+
+
+    .projects__tag{
+        border-radius: .8rem;
+        background-color: v.$steel-gray-900;
+        color: v.$white;
+        padding: .4rem .6rem;
+        font-size: 1.3rem;
+    }
+
+    .projects__tag-image{
+        width: 1.6rem;
+    }
+}
