@@ -140,8 +140,8 @@ a:hover {
   align-items: center;
   gap: 0.6rem;
   font-weight: 700;
-  border-radius: 12px;
-  padding: 0.6rem 1.2rem;
+  border-radius: 0.8rem;
+  padding: 0 1.2rem;
   font-size: clamp(1.4rem, 1rem + 1vw, 1.5rem);
   text-align: center;
   background-color: #C3AA72;
@@ -164,8 +164,8 @@ a:hover {
   align-items: center;
   gap: 0.6rem;
   font-weight: 700;
-  border-radius: 12px;
-  padding: 0.6rem 1.2rem;
+  border-radius: 0.8rem;
+  padding: 0 1.2rem;
   font-size: clamp(1.4rem, 1rem + 1vw, 1.5rem);
   text-align: center;
   background-color: #99acbb;
@@ -480,4 +480,21 @@ de la carpeta para compilarlo
 }
 .projects__tags .projects__tag-image {
   width: 1.6rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+}
+.contact .contact__title {
+  margin-bottom: 4.8rem;
+}
+
+.contact__buttons .button__link {
+  box-shadow: none;
+}
+.contact__buttons .button__link svg {
+  width: 2rem;
 }
