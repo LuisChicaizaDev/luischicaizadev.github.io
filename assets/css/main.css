@@ -138,7 +138,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 600;
+  font-weight: 700;
   border-radius: 12px;
   font-size: clamp(1.4rem, 1rem + 1vw, 1.5rem);
   text-align: center;
@@ -166,7 +166,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 600;
+  font-weight: 700;
   border-radius: 12px;
   font-size: clamp(1.4rem, 1rem + 1vw, 1.5rem);
   text-align: center;
@@ -393,6 +393,22 @@ de la carpeta para compilarlo
   margin-bottom: 9.6rem;
 }
 
+.projects__content {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 12rem 0;
+  gap: 4rem;
+}
+@media (min-width: 992px) {
+  .projects__content {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+@media (min-width: 1224px) {
+  .projects__content {
+    gap: 8rem;
+  }
+}
 .projects__content .projects__project-title {
   position: relative;
   padding-left: 40px;
@@ -411,11 +427,22 @@ de la carpeta para compilarlo
   background-position: left center;
 }
 .projects__content .projects__column--image {
+  width: 35.8rem;
+  height: 29rem;
+  margin: 0 auto;
+  align-self: center;
   overflow: hidden;
   border-radius: 2.4rem;
   padding: 0 !important;
 }
+@media (min-width: 768px) {
+  .projects__content .projects__column--image {
+    width: 42rem;
+  }
+}
 .projects__content .projects__image {
+  width: 100%;
+  height: 100%;
   filter: brightness(0.6);
   transition: all 0.5s ease-out;
 }
@@ -425,17 +452,37 @@ de la carpeta para compilarlo
 }
 .projects__content .projects__button {
   width: 100px;
+  height: 40px;
+  gap: 0.6rem;
   box-shadow: none;
+}
+
+.projects__button svg {
+  width: 2rem;
+}
+
+@media (min-width: 992px) {
+  .projects__content.column__image--right {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+.projects__content.column__image--right .projects__column--image {
+  grid-row: 1/2;
+}
+@media (min-width: 992px) {
+  .projects__content.column__image--right .projects__column--image {
+    grid-column: 2/3;
+  }
 }
 
 .projects__column--info {
   border-radius: 1.6rem;
   background-color: #2d3239;
-  padding: 3.2rem 1.6rem;
+  padding: 2.4rem 1.6rem;
 }
 
 .projects__tags .projects__tag {
-  border-radius: 0.8rem;
+  border-radius: 0.6rem;
   background-color: #4e5861;
   color: #FFF;
   padding: 0.4rem 0.6rem;
