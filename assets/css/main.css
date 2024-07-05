@@ -135,11 +135,13 @@ a:hover {
 }
 
 .btn-khaki {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
+  gap: 0.6rem;
   font-weight: 700;
   border-radius: 12px;
+  padding: 0.6rem 1.2rem;
   font-size: clamp(1.4rem, 1rem + 1vw, 1.5rem);
   text-align: center;
   background-color: #C3AA72;
@@ -147,7 +149,6 @@ a:hover {
   height: 46px;
   box-shadow: 0 4px 2px #5c6877;
   transition: background-color 0.4s ease-in-out;
-  width: 160px;
 }
 .btn-khaki:hover {
   background-color: #292929;
@@ -156,18 +157,15 @@ a:hover {
 .btn-khaki:active {
   background-color: #4e5861;
 }
-@media (min-width: 992px) {
-  .btn-khaki {
-    width: 180px;
-  }
-}
 
 .btn-gray {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
+  gap: 0.6rem;
   font-weight: 700;
   border-radius: 12px;
+  padding: 0.6rem 1.2rem;
   font-size: clamp(1.4rem, 1rem + 1vw, 1.5rem);
   text-align: center;
   background-color: #99acbb;
@@ -175,7 +173,6 @@ a:hover {
   height: 46px;
   box-shadow: 0 4px 2px #718093;
   transition: background-color 0.4s ease-in-out;
-  width: 140px;
 }
 .btn-gray:hover {
   background-color: #c6d5db;
@@ -183,11 +180,6 @@ a:hover {
 }
 .btn-gray:active {
   background-color: #718093;
-}
-@media (min-width: 992px) {
-  .btn-gray {
-    width: 160px;
-  }
 }
 
 /*@forward desde este index apunta a los demás archivos 
@@ -250,7 +242,7 @@ de la carpeta para compilarlo
 }
 @media (min-width: 768px) {
   .intro .intro__button {
-    display: flex;
+    display: inline-flex;
   }
 }
 
@@ -451,8 +443,6 @@ de la carpeta para compilarlo
   transform: scale(1.1);
 }
 .projects__content .projects__button {
-  width: 100px;
-  height: 40px;
   gap: 0.6rem;
   box-shadow: none;
 }

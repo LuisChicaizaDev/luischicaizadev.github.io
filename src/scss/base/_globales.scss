@@ -125,11 +125,6 @@ a{
 .btn-khaki{
     @include m.button-common-styles;
     @include m.solid-button-khaki;
-    width: 160px;
-
-    @include m.desktop{
-        width: 180px;
-    }
 }
 
 
@@ -137,9 +132,4 @@ a{
 .btn-gray{
     @include m.button-common-styles;
     @include m.solid-button-gray;
-    width: 140px;
-
-    @include m.desktop{
-        width: 160px;
-    }
 }

@@ -47,11 +47,13 @@
 
 //buttons
 @mixin button-common-styles{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
+    gap: .6rem;
     font-weight: v.$w-bold;
     border-radius: 12px;
+    padding: .6rem 1.2rem;
     font-size: clamp(1.4rem, 1rem + 1vw, 1.5rem);
     text-align: center;
 }
