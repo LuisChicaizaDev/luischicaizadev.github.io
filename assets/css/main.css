@@ -104,14 +104,6 @@ a:hover {
   display: none;
 }
 
-.text-star {
-  text-align: start;
-}
-
-.text-end {
-  text-align: end;
-}
-
 .paddings {
   padding: 24px 16px;
 }
@@ -496,4 +488,22 @@ de la carpeta para compilarlo
 }
 .contact__buttons .button__link svg {
   width: 2rem;
+}
+
+/*FOOTER*/
+.footer {
+  padding-top: 8rem;
+  padding-bottom: 1.6rem;
+}
+.footer .footer__text {
+  font-size: 1.4rem;
+}
+.footer .footer__copyright {
+  padding-top: 2.4rem;
+}
+.footer a {
+  color: #C3AA72;
+}
+.footer a:hover {
+  color: #FFF !important;
 }

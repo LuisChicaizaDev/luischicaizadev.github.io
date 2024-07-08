@@ -97,12 +97,6 @@ a{
     display: none;
 }
 
-.text-star{
-    text-align: start;
-}
-.text-end{
-    text-align: end;
-}
 .paddings{
     @include m.padding-mobile(24px);
 
