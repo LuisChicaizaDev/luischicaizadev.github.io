@@ -211,6 +211,7 @@ de la carpeta para compilarlo
   top: 1.6rem;
   background-color: rgba(141, 141, 141, 0.55);
   backdrop-filter: blur(2px);
+  transition: all 0.2s linear;
 }
 .header .my-nav .nav__list .nav__link {
   font-size: clamp(1.4rem, 1rem + 1vw, 1.78rem);

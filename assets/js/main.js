@@ -5,9 +5,10 @@ document.addEventListener('DOMContentLoaded', function(){
 
 function iniciarApp() {
     fixedNavigation();
+    scrollNav();
 }
 
-
+//Fixed Navigation
 function fixedNavigation() {
     const nav = document.querySelector('.my-nav .nav__list');
     const sectionHeader = document.querySelector('.header');
@@ -58,5 +59,22 @@ function fixedNavigation() {
         if (currentSection) {
             links[currentSection].classList.add('nav__link--active');
         }
+    });
+}
+
+//scroll smooth para la navegación
+function scrollNav(){
+    const navLinks = document.querySelectorAll('.nav__list a');
+
+    navLinks.forEach( links  =>{
+        links.addEventListener('click', function(e){
+            e.preventDefault(); //para prevenir la acción por defecto del scroll
+
+            //configuramos un nuevo comportamiento del scroll
+            const sectionScroll = e.target.attributes.href.value;
+            const section = document.querySelector(sectionScroll);
+
+            section.scrollIntoView({ behavior: 'smooth' });
+        });
     });
 }
