@@ -7,11 +7,6 @@
         flex-direction: column;
         align-items: center;
         gap: .8rem;
-        @include m.tablet{
-            flex-direction: row;
-            justify-content: center;
-            gap: 2.4rem;
-        }
 
         .nav__logo{
             width: 50px;
@@ -23,13 +18,19 @@
             gap: 1.6rem;
             padding: 1.2rem !important;
             @include m.reset-lista;
-            background-color:rgb(245 247 248 / 15%);
-            backdrop-filter: blur(2px);
+            z-index: 10;
             border-radius: 12px;
             text-align: center;
 
             @include m.tablet{
                 gap: 3.2rem;
+            }
+
+            &.fixed{
+                position: fixed;
+                top: 1.6rem;
+                background-color:rgba(141, 141, 141, 0.55);
+                backdrop-filter: blur(2px);
             }
 
             .nav__link{
@@ -44,6 +45,13 @@
     }
 }
 
+.nav__item{
+
+    .nav__link--active{
+        color: v.$dark-khaki;
+        font-weight: v.$w-bold;
+    }
+}
 
 
 .intro{

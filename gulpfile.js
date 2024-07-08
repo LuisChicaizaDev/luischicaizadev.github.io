@@ -12,12 +12,20 @@ function css(done){
     
     done(); //callback avisa a gulp cuando llega al final la función
 }
+function javascript(done){
+
+    src('src/js/**/*.js')
+        .pipe(dest('assets/js'));
+    done();
+}
 
 function dev(done){
     watch('src/scss/**/*.scss', css)
+    watch('src/js/**/*.js', javascript)
     done();
 }
 
 
 exports.css = css;
+exports.js = javascript;
 exports.dev = dev;

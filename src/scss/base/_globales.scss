@@ -20,6 +20,10 @@ body{
     color: v.$white;
     background-color: v.$black;
 
+    &.no-scroll{
+        padding-top: 5.8rem;
+    }
+
 }
 
 h1, h2, h3, h4, h5{

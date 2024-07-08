@@ -19,6 +19,9 @@ body {
   color: #FFF;
   background-color: #292929;
 }
+body.no-scroll {
+  padding-top: 5.8rem;
+}
 
 h1, h2, h3, h4, h5 {
   font-family: "Goldman", sans-serif;
@@ -183,13 +186,6 @@ de la carpeta para compilarlo
   align-items: center;
   gap: 0.8rem;
 }
-@media (min-width: 768px) {
-  .header .my-nav {
-    flex-direction: row;
-    justify-content: center;
-    gap: 2.4rem;
-  }
-}
 .header .my-nav .nav__logo {
   width: 50px;
 }
@@ -201,8 +197,7 @@ de la carpeta para compilarlo
   margin: 0;
   padding: 0;
   list-style: none;
-  background-color: rgba(245, 247, 248, 0.15);
-  backdrop-filter: blur(2px);
+  z-index: 10;
   border-radius: 12px;
   text-align: center;
 }
@@ -211,6 +206,12 @@ de la carpeta para compilarlo
     gap: 3.2rem;
   }
 }
+.header .my-nav .nav__list.fixed {
+  position: fixed;
+  top: 1.6rem;
+  background-color: rgba(141, 141, 141, 0.55);
+  backdrop-filter: blur(2px);
+}
 .header .my-nav .nav__list .nav__link {
   font-size: clamp(1.4rem, 1rem + 1vw, 1.78rem);
 }
@@ -218,6 +219,11 @@ de la carpeta para compilarlo
   .header .my-nav .nav__list .nav__link {
     padding: 0 0.8rem;
   }
+}
+
+.nav__item .nav__link--active {
+  color: #C3AA72;
+  font-weight: 700;
 }
 
 .intro {
