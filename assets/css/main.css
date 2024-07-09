@@ -43,7 +43,7 @@ h2 {
 }
 
 h3 {
-  font-size: clamp(2.6rem, 1rem + 2.4vw, 3rem);
+  font-size: clamp(2.6rem, 1rem + 2.4vw, 2.8rem);
 }
 
 h4 {
@@ -377,11 +377,31 @@ de la carpeta para compilarlo
 .experience .experience__title {
   margin: 4rem 0;
 }
-
-.experience-work__list {
+.experience .experience-work__subtitle {
+  font-size: clamp(1.8rem, 1rem + 1.4vw, 2.4rem);
+}
+.experience .experience-work__list {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.experience-work__item .experience-work__title {
+  position: relative;
+  padding-left: 4rem;
+}
+.experience-work__item .experience-work__title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3rem;
+  height: 2rem;
+  background-image: url(/static/linea.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
 }
 
 .projects .projects__title {
@@ -407,7 +427,7 @@ de la carpeta para compilarlo
 }
 .projects__content .projects__project-title {
   position: relative;
-  padding-left: 40px;
+  padding-left: 4rem;
 }
 .projects__content .projects__project-title::before {
   content: "";

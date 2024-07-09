@@ -6,8 +6,34 @@
     .experience__title{
         margin: 4rem 0;
     }
+
+    .experience-work__subtitle{
+        font-size: clamp(1.8rem, 1rem + 1.4vw, 2.4rem);
+    }
+
+    .experience-work__list{
+        @include m.reset-lista;
+    }
+
 }
-.experience-work__list{
-    @include m.reset-lista;
-    
+
+.experience-work__item{
+    .experience-work__title{
+        position: relative;
+        padding-left: 4rem;
+
+        &::before{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 3rem;
+            height: 2rem;
+            background-image: url(/static/linea.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: left center;
+        }
+    }
 }
