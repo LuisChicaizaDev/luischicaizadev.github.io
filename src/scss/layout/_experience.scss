@@ -1,6 +1,12 @@
 @use 'base/variables' as v;
 @use 'base/mixins' as m;
 
+.experience{
+
+    .experience__title{
+        margin: 4rem 0;
+    }
+}
 .experience-work__list{
     @include m.reset-lista;
     

@@ -11,11 +11,11 @@ function iniciarApp() {
 //Fixed Navigation
 function fixedNavigation() {
     const nav = document.querySelector('.my-nav .nav__list');
-    const sectionHeader = document.querySelector('.header');
-    const sectionAbout = document.querySelector('.about-me');
-    const sectionExperience = document.querySelector('.experience');
-    const sectionProjects = document.querySelector('.projects');
-    const sectionContact = document.querySelector('.contact');
+    const sectionHeader = document.querySelector('#header');
+    const sectionAbout = document.querySelector('#about-me');
+    const sectionExperience = document.querySelector('#experience');
+    const sectionProjects = document.querySelector('#projects');
+    const sectionContact = document.querySelector('#contact');
 
     const links = {
         aboutMe: document.querySelector('#link-about'),
@@ -27,7 +27,7 @@ function fixedNavigation() {
     window.addEventListener('scroll', function() {
         //Con el metodo conseguimos detectar la posicion de la sección y activamos el nav
         //Se activa cuando sobre pasa la parte de abajo de la sección
-        if (sectionHeader.getBoundingClientRect().bottom < 0) {
+        if (sectionHeader.getBoundingClientRect().bottom < 100) {
             nav.classList.add('fixed');
             document.body.classList.add('no-scroll');
         } else {
@@ -38,13 +38,13 @@ function fixedNavigation() {
         // Determinar qué sección está actualmente a la vista
         let currentSection = null;
 
-        if (sectionContact.getBoundingClientRect().top < 0) {
+        if (sectionContact.getBoundingClientRect().top < 100) {
             currentSection = 'contact';
-        } else if (sectionProjects.getBoundingClientRect().top < 0) {
+        } else if (sectionProjects.getBoundingClientRect().top < 100) {
             currentSection = 'projects';
-        } else if (sectionExperience.getBoundingClientRect().top < 0) {
+        } else if (sectionExperience.getBoundingClientRect().top < 100) {
             currentSection = 'experience';
-        } else if (sectionAbout.getBoundingClientRect().top < 0) {
+        } else if (sectionAbout.getBoundingClientRect().top < 100) {
             currentSection = 'aboutMe';
         }
 
