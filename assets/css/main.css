@@ -290,10 +290,10 @@ de la carpeta para compilarlo
   padding: 0.4rem 0.8rem;
   position: absolute;
   z-index: 1;
-  top: 150%;
-  left: 50%;
+  top: 140%;
+  left: 55%;
   margin-left: -60px;
-  box-shadow: 0 0 0.8rem #8394a8;
+  box-shadow: 0 0 1.2rem #8394a8;
 }
 
 .my-tooltip .tooltiptext::after {
