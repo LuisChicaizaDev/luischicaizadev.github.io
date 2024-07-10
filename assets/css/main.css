@@ -252,7 +252,7 @@ de la carpeta para compilarlo
   gap: 1.6rem;
 }
 .intro__avatar .avatar__image {
-  width: 100%;
+  max-width: 100%;
 }
 .intro__avatar .icons__list {
   margin: 0;
@@ -535,6 +535,7 @@ de la carpeta para compilarlo
 }
 .footer a {
   color: #C3AA72;
+  font-weight: 600;
 }
 .footer a:hover {
   color: #FFF !important;
