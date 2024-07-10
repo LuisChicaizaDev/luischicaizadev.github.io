@@ -108,7 +108,7 @@ a:hover {
 }
 
 .paddings {
-  padding: 24px 16px;
+  padding: 32px 16px;
 }
 @media (min-width: 768px) {
   .paddings {
@@ -141,7 +141,7 @@ a:hover {
   text-align: center;
   background-color: #C3AA72;
   color: #292929;
-  height: 46px;
+  height: 4.6rem;
   box-shadow: 0 4px 2px #5c6877;
   transition: background-color 0.4s ease-in-out;
 }
@@ -524,7 +524,7 @@ de la carpeta para compilarlo
 
 /*FOOTER*/
 .footer {
-  padding-top: 8rem;
+  padding-top: 12rem;
   padding-bottom: 1.6rem;
 }
 .footer .footer__text {

@@ -102,7 +102,7 @@ a{
 }
 
 .paddings{
-    @include m.padding-mobile(24px);
+    @include m.padding-mobile(32px);
 
     @include m.tablet{
         @include m.padding-tablet(40px);
