@@ -6,7 +6,12 @@
     box-sizing: inherit;
 }
 
-//Global 
+//Global
+::selection {
+    background: v.$dark-khaki;
+    color: v.$white;
+    text-shadow: none;
+}
 html{
     box-sizing: border-box;
     font-size: 62.5%; /*1 rem = 10px */

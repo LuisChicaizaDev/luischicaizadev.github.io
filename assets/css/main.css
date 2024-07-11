@@ -6,6 +6,12 @@ de la carpeta para compilarlo
   box-sizing: inherit;
 }
 
+::selection {
+  background: #C3AA72;
+  color: #FFF;
+  text-shadow: none;
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%; /*1 rem = 10px */
@@ -141,7 +147,7 @@ a:hover {
   text-align: center;
   background-color: #C3AA72;
   color: #292929;
-  height: 4.6rem;
+  height: 4rem;
   box-shadow: 0 4px 2px #5c6877;
   transition: background-color 0.4s ease-in-out;
 }
@@ -165,7 +171,7 @@ a:hover {
   text-align: center;
   background-color: #99acbb;
   color: #2d3239;
-  height: 46px;
+  height: 4rem;
   box-shadow: 0 4px 2px #718093;
   transition: background-color 0.4s ease-in-out;
 }
