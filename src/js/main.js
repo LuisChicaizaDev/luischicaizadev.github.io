@@ -4,8 +4,34 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 
 function iniciarApp() {
+    customCursor();
     fixedNavigation();
     scrollNav();
+}
+//Custom cursor
+function customCursor(){
+    const cursor = document.querySelector('.cursor-custom');
+    const links = document.querySelectorAll('A');
+
+    document.addEventListener('mousemove', e =>{
+        cursor.setAttribute('style', 'top:'+(e.pageY - 10)+'px; left:'+(e.pageX - 10)+'px;');
+    });
+
+    document.addEventListener('mouseout', () =>{
+        cursor.setAttribute('style', 'display:none');
+    });
+
+    document.addEventListener('click', () => {
+        cursor.classList.add('cursor-expand');
+
+        setTimeout(() => {
+            cursor.classList.remove('cursor-expand');
+        },200);
+    });
+
+    links.addEventListener('mouseenter', () => {
+        cursor.setAttribute('style', 'display:none');
+    });
 }
 
 //Fixed Navigation

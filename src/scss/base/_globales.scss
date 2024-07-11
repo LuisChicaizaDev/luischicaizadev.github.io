@@ -24,11 +24,41 @@ body{
     line-height: 1.6;
     color: v.$white;
     background-color: v.$black;
-
+    overflow-x: hidden;
     &.no-scroll{
         padding-top: 5.8rem;
     }
 
+}
+.cursor-custom{
+    width: 2rem;
+    height: 2rem;
+    border: .1rem solid v.$steel-gray;
+    border-radius: 50%;
+    box-shadow: 0 0 4rem .1rem v.$steel-gray;
+    position: absolute;
+    pointer-events: none;
+    transition-duration: 150ms;
+    transition-timing-function: ease-out;
+}
+
+@keyframes cursorAnimation {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+.cursor-expand{
+    border: .12rem solid v.$dark-khaki;  
+    box-shadow: 0 0 4rem .1rem v.$dark-khaki;
+    animation: cursorAnimation .5 forwards;
 }
 
 h1, h2, h3, h4, h5{

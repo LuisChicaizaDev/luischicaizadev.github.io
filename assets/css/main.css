@@ -24,9 +24,40 @@ body {
   line-height: 1.6;
   color: #FFF;
   background-color: #292929;
+  overflow-x: hidden;
 }
 body.no-scroll {
   padding-top: 5.8rem;
+}
+
+.cursor-custom {
+  width: 2rem;
+  height: 2rem;
+  border: 0.1rem solid #718093;
+  border-radius: 50%;
+  box-shadow: 0 0 4rem 0.1rem #718093;
+  position: absolute;
+  pointer-events: none;
+  transition-duration: 150ms;
+  transition-timing-function: ease-out;
+}
+
+@keyframes cursorAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+.cursor-expand {
+  border: 0.12rem solid #C3AA72;
+  box-shadow: 0 0 4rem 0.1rem #C3AA72;
+  animation: cursorAnimation 0.5 forwards;
 }
 
 h1, h2, h3, h4, h5 {
