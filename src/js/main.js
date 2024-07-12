@@ -12,6 +12,7 @@ function iniciarApp() {
 function customCursor(){
     const cursor = document.querySelector('.cursor-custom');
     const links = document.querySelectorAll('A');
+    const linksProjects = Array.from(document.querySelectorAll('#projects A')).slice(0, -1);
 
     document.addEventListener('mousemove', e =>{
         cursor.setAttribute('style', 'top:'+(e.pageY - 10)+'px; left:'+(e.pageX - 10)+'px;');
@@ -29,8 +30,32 @@ function customCursor(){
         },200);
     });
 
-    links.addEventListener('mouseenter', () => {
-        cursor.setAttribute('style', 'display:none');
+    function handleMouseEnterExpand() {
+        cursor.classList.add('cursor-expand');
+    }
+
+    function handleMouseLeaveExpand() {
+        cursor.classList.remove('cursor-expand');
+    }
+
+    function handleMouseEnterExpandGray() {
+        cursor.classList.add('cursor-expand-gray');
+    }
+
+    function handleMouseLeaveExpandGray() {
+        cursor.classList.remove('cursor-expand-gray');
+    }
+
+    //Hover buttons khaki
+    links.forEach(link => {
+        link.addEventListener('mouseenter', handleMouseEnterExpand);
+        link.addEventListener('mouseleave', handleMouseLeaveExpand);
+    });
+
+    //Hover buttons gray
+    linksProjects.forEach(link => {
+        link.addEventListener('mouseenter', handleMouseEnterExpandGray);
+        link.addEventListener('mouseleave', handleMouseLeaveExpandGray);
     });
 }
 
