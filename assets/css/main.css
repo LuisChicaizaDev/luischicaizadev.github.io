@@ -185,7 +185,7 @@ a:hover {
   background-color: #C3AA72;
   color: #292929;
   height: 4rem;
-  box-shadow: 0 4px 2px #5c6877;
+  box-shadow: 0 4px 2px #718093;
   transition: background-color 0.4s ease-in-out;
 }
 .btn-khaki:hover {
@@ -209,7 +209,6 @@ a:hover {
   background-color: #99acbb;
   color: #2d3239;
   height: 4rem;
-  box-shadow: 0 4px 2px #718093;
   transition: background-color 0.4s ease-in-out;
 }
 .btn-gray:hover {
@@ -510,7 +509,6 @@ de la carpeta para compilarlo
 }
 .projects__content .projects__button {
   gap: 0.6rem;
-  box-shadow: none;
 }
 
 .projects__button svg {
@@ -558,6 +556,10 @@ de la carpeta para compilarlo
   margin: 4.8rem 0;
 }
 
+.contact__buttons {
+  padding: 0;
+  margin: 0;
+}
 .contact__buttons .button__link {
   box-shadow: none;
 }
