@@ -7,6 +7,7 @@ function iniciarApp() {
     customCursor();
     fixedNavigation();
     scrollNav();
+    scrollFunction();
 }
 //Custom cursor
 function customCursor(){
@@ -127,5 +128,35 @@ function scrollNav(){
 
             section.scrollIntoView({ behavior: 'smooth' });
         });
+    });
+}
+
+//Back to top
+function scrollFunction() {
+    const scrollTopBtn = document.querySelector(".to-top__button");
+
+    window.addEventListener("scroll", function() {
+        // Obtiene la posición actual de desplazamiento vertical del cuerpo del documento
+        const scrollPosition = document.body.scrollTop || document.documentElement.scrollTop; 
+        // Calcula la altura total del contenido desplazable en la ventana del navegador
+        const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        // Calcula la opacidad del elemento según la posición de desplazamiento actual
+        const scrollOpacity = scrollPosition / windowHeight;
+
+        if (scrollPosition > 200) {
+            scrollTopBtn.classList.add('active');
+            } else {
+            scrollTopBtn.classList.remove('active');
+        }
+        
+        let opacityDefault = 0.25;
+        scrollTopBtn.style.opacity = opacityDefault + scrollOpacity;
+
+    });
+
+    scrollTopBtn.addEventListener('click', e => {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        scrollTopBtn.style.opacity = 1;
     });
 }

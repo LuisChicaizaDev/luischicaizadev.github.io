@@ -219,6 +219,27 @@ a:hover {
   background-color: #718093;
 }
 
+.to-top__button {
+  width: 4.4rem;
+  height: 4.4rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 1.6rem;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+  background-color: #4e5861;
+  color: #FFF;
+  border: none;
+  border-radius: 50%;
+  z-index: 20;
+}
+.to-top__button.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*@forward desde este index apunta a los demás archivos 
 de la carpeta para compilarlo
 */

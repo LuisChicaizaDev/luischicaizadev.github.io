@@ -174,3 +174,26 @@ a{
     @include m.button-common-styles;
     @include m.solid-button-gray;
 }
+
+//To top
+.to-top__button{
+    width: 4.4rem;
+    height: 4.4rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 1.6rem;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+    background-color: v.$steel-gray-900;
+    color: v.$white;
+    border: none;
+    border-radius: 50%;
+    z-index: 20;
+
+    &.active{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
