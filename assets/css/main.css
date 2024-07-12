@@ -255,9 +255,11 @@ de la carpeta para compilarlo
 .header .my-nav .nav__list {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 1.6rem;
   padding: 1.2rem !important;
-  background-color: rgba(141, 141, 141, 0.55);
+  background-color: rgba(141, 141, 141, 0.25);
   margin: 0;
   padding: 0;
   list-style: none;
@@ -273,6 +275,7 @@ de la carpeta para compilarlo
 .header .my-nav .nav__list.fixed {
   position: fixed;
   top: 1.6rem;
+  background-color: rgba(141, 141, 141, 0.55);
   backdrop-filter: blur(2px);
   transition: all 0.2s linear;
 }

@@ -15,9 +15,11 @@
         .nav__list{
             display: flex;
             align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
             gap: 1.6rem;
             padding: 1.2rem !important;
-            background-color:rgba(141, 141, 141, 0.55);
+            background-color:rgba(141, 141, 141, 0.25);
             @include m.reset-lista;
             z-index: 10;
             border-radius: 12px;
@@ -30,6 +32,7 @@
             &.fixed{
                 position: fixed;
                 top: 1.6rem;
+                background-color:rgba(141, 141, 141, 0.55);
                 backdrop-filter: blur(2px);
                 transition: all .2s linear;
             }
