@@ -36,21 +36,21 @@ body.no-scroll {
     height: 2rem;
     border: 0.1rem solid #718093;
     border-radius: 50%;
-    box-shadow: 0 0 6rem 1rem #718093;
+    box-shadow: 0 0 8rem 2rem #718093;
     position: absolute;
     pointer-events: none;
-    transition-duration: 150ms;
+    transition-duration: 140ms;
     transition-timing-function: ease-out;
     z-index: 5;
   }
   .cursor-expand {
     border: 0.12rem solid #C3AA72;
-    box-shadow: 0 0 2rem 1rem #C3AA72;
+    box-shadow: 0 0 3rem 1rem #C3AA72;
     animation: cursorAnimation 0.5 forwards;
   }
   .cursor-expand-gray {
-    border: 0.12rem solid #8394a8;
-    box-shadow: 0 0 2rem 1rem #8394a8;
+    border: 0.12rem solid #5c6877;
+    box-shadow: 0 0 3rem 1rem #8394a8;
     animation: cursorAnimation 0.5 forwards;
   }
 }
@@ -249,6 +249,9 @@ de la carpeta para compilarlo
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
+}
+.header .my-nav .logo {
+  z-index: 10;
 }
 .header .my-nav .nav__logo {
   width: 50px;

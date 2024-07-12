@@ -8,6 +8,9 @@
         align-items: center;
         gap: .8rem;
 
+        .logo{
+            z-index: 10;
+        }
         .nav__logo{
             width: 50px;
         }

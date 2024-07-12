@@ -14,7 +14,10 @@ function customCursor(){
     const cursor = document.querySelector('.cursor-custom');
     const links = document.querySelectorAll('A');
     const linksProjects = Array.from(document.querySelectorAll('#projects A')).slice(0, -1);
+    const linkToTop = document.querySelector('.to-top__button');
+    const linkLogo = document.querySelector('.logo');
 
+    //Position the cursor
     document.addEventListener('mousemove', e =>{
         cursor.setAttribute('style', 'top:'+(e.pageY - 10)+'px; left:'+(e.pageX - 10)+'px;');
     });
@@ -57,6 +60,15 @@ function customCursor(){
     linksProjects.forEach(link => {
         link.addEventListener('mouseenter', handleMouseEnterExpandGray);
         link.addEventListener('mouseleave', handleMouseLeaveExpandGray);
+    });
+
+    //Hover button to top
+    linkToTop.addEventListener('mouseenter', () => {
+        cursor.classList.remove('cursor-expand');
+    });
+    
+    linkLogo.addEventListener('mouseenter', () => {
+        cursor.classList.remove('cursor-expand');
     });
 }
 

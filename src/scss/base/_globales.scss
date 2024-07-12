@@ -36,21 +36,21 @@ body{
         height: 2rem;
         border: .1rem solid v.$steel-gray;
         border-radius: 50%;
-        box-shadow: 0 0 6rem 1rem v.$steel-gray; 
+        box-shadow: 0 0 8rem 2rem v.$steel-gray; 
         position: absolute;
         pointer-events: none;
-        transition-duration: 150ms;
+        transition-duration: 140ms;
         transition-timing-function: ease-out;
         z-index: 5;
     }
     .cursor-expand{
         border: .12rem solid v.$dark-khaki;  
-        box-shadow: 0 0 2rem 1rem v.$dark-khaki;
+        box-shadow: 0 0 3rem 1rem v.$dark-khaki;
         animation: cursorAnimation .5 forwards;
     }
     .cursor-expand-gray{
-        border: .12rem solid v.$steel-gray-600;  
-        box-shadow: 0 0 2rem 1rem v.$steel-gray-600;
+        border: .12rem solid v.$steel-gray-800;  
+        box-shadow: 0 0 3rem 1rem v.$steel-gray-600;
         animation: cursorAnimation .5 forwards;
     }
     
