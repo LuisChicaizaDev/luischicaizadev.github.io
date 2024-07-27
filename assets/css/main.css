@@ -36,7 +36,7 @@ body.no-scroll {
     height: 2rem;
     border: 0.1rem solid #718093;
     border-radius: 50%;
-    box-shadow: 0 0 8rem 2rem #718093;
+    box-shadow: 0 0 10rem 2rem #5c6877;
     position: absolute;
     pointer-events: none;
     transition-duration: 140ms;
@@ -45,7 +45,7 @@ body.no-scroll {
   }
   .cursor-expand {
     border: 0.12rem solid #C3AA72;
-    box-shadow: 0 0 3rem 1rem #C3AA72;
+    box-shadow: 0 0 4rem 1rem #C3AA72;
     animation: cursorAnimation 0.5 forwards;
   }
   .cursor-expand-gray {
@@ -364,7 +364,7 @@ de la carpeta para compilarlo
   top: 140%;
   left: 55%;
   margin-left: -60px;
-  box-shadow: 0 0 1.2rem #8394a8;
+  box-shadow: 0 0 1.2rem #5c6877;
 }
 
 .my-tooltip .tooltiptext::after {
