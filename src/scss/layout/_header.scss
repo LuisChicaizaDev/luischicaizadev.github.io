@@ -77,6 +77,14 @@
             display: inline-flex;
         }
     }
+
+    .icon-tabler {
+        color: v.$dark-khaki;
+        width: 5.2rem;
+        height: 5.2rem;
+        animation: shake 3s ease infinite;
+        animation-fill-mode: both;
+    }
     
 }
 .intro__avatar{
@@ -143,4 +151,22 @@
 
 .my-tooltip:hover .tooltiptext {
     visibility: visible;
+}
+
+@keyframes shake{
+    0% {
+        transform: scaleX(1);
+    }
+    10%, 5% {
+        transform: scale3d(.9, .9, .9) rotate(-5deg);
+    }
+    15%, 25%, 35%, 45% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate(5deg);
+    }
+    20%, 30%, 40% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate(-5deg);
+    }
+    50% {
+        transform: scaleX(1);
+    }
 }
