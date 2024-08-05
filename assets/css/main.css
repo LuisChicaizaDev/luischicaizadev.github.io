@@ -473,7 +473,7 @@ de la carpeta para compilarlo
   margin: 4rem 0;
 }
 .experience .experience-work__subtitle {
-  font-size: clamp(1.8rem, 1rem + 1.4vw, 2.4rem);
+  font-size: clamp(1.8rem, 1rem + 1.4vw, 2.2rem);
 }
 .experience .experience-work__list {
   margin: 0;
@@ -497,6 +497,16 @@ de la carpeta para compilarlo
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left center;
+}
+.experience-work__item .experience-work__time {
+  color: #FFF;
+  font-style: italic;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+}
+.experience-work__item .experiencie__text li {
+  list-style: disc;
+  margin: 0.8rem 0;
 }
 
 .projects .projects__title {
