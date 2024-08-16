@@ -123,9 +123,11 @@
     }
 }
 
+// Modal carousel
 .carouselContainer{
     display: none;
     background-color: rgb(52 52 52 / 65%);
+    backdrop-filter: blur(.1rem);
     align-content: center;
     width: 100%;
     height: 100%;
@@ -140,7 +142,6 @@
     &.show{
         display: grid;
         gap: 10px;
-        transition: display 5s ease-in-out;
     }
 
 
@@ -159,4 +160,12 @@
         cursor: pointer;
     }
     
+}
+
+.carousel-control-next-icon, 
+.carousel-control-prev-icon{
+    width: 2.4rem;
+    height: 2.4rem;
+    background-color: v.$steel-gray-800;
+    border-radius: .6rem;
 }
