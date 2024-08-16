@@ -609,9 +609,12 @@ de la carpeta para compilarlo
   color: #FFF;
   padding: 0.4rem 0.6rem;
   font-size: 1.3rem;
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
 }
 .projects__tags .projects__tag-image {
-  width: 1.6rem;
+  width: 1.8rem;
 }
 
 .contact {

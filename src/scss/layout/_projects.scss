@@ -113,9 +113,12 @@
         color: v.$white;
         padding: .4rem .6rem;
         font-size: 1.3rem;
+        display: flex;
+        gap: .6rem;
+        align-items: center;
     }
 
     .projects__tag-image{
-        width: 1.6rem;
+        width: 1.8rem;
     }
 }
