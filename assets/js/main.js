@@ -8,6 +8,7 @@ function iniciarApp() {
     fixedNavigation();
     scrollNav();
     scrollFunction();
+    imagesModal();
 }
 //Custom cursor
 function customCursor(){
@@ -140,6 +141,98 @@ function scrollNav(){
 
             section.scrollIntoView({ behavior: 'smooth' });
         });
+    });
+}
+
+//Modal slider
+function createCarousel(images, interval = 2000) {
+    const container = document.querySelector('.carouselContainer');
+    container.classList.add('show'); // Mostrar el modal del carrusel
+
+    const btnClose = document.createElement('P');
+    btnClose.classList.add('btn-close-modal', 'btn-gray');
+    btnClose.innerText = "Cerrar";
+
+    // Crear HTML del carrusel
+    let carouselHTML = `
+        <div id="slider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+    `;
+
+    // Usar forEach para recorrer las imágenes
+    images.forEach((image, index) => {
+        const activeClass = index === 0 ? 'active' : ''; // La primera imagen será activa por defecto
+        carouselHTML += `
+        <div class="carousel-item ${activeClass}">
+            <img src="${image.src}" class="d-block w-100 image-modal" alt="${image.alt}">
+        </div>
+        `;
+    });
+
+    // Finalizar HTML del carrusel
+    carouselHTML += `
+        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    `;
+
+    // Insertar el HTML del carrusel en el contenedor
+    container.innerHTML = carouselHTML;
+
+    // Agregar el botón de cerrar modal
+    container.appendChild(btnClose);
+
+    // Inicializar el carrusel con Bootstrap
+    const myCarousel = new bootstrap.Carousel(document.getElementById('slider'), {
+      interval: interval,
+      touch: true
+    });
+
+    // Evento para cerrar el modal
+    btnClose.addEventListener('click', () => {
+        container.innerHTML = '';  // Limpia el contenido del carrusel al cerrar
+        container.classList.remove('show');
+    });
+}
+// Galería de proyectos con imágenes
+const projectImages = {
+    project1: [
+        { src: '../../src/img/proyecto-aera.png', alt: 'Imagen de Proyecto 1 - 1' },
+        { src: '../../src/img/proyecto-aera.png', alt: 'Imagen de Proyecto 1 - 2' },
+        { src: '../../src/img/proyecto-aera.png', alt: 'Imagen de Proyecto 1 - 3' }
+    ],
+    project2: [
+        { src: '../../src/img/default.png', alt: 'Imagen de Proyecto 2 - 1' },
+        { src: '../../src/img/default.png', alt: 'Imagen de Proyecto 2 - 2' },
+        { src: '../../src/img/default.png', alt: 'Imagen de Proyecto 2 - 3' }
+    ]
+};
+
+// Función para manejar el clic en cualquier proyecto
+function handleProjectClick(event) {
+
+    const projectId = event.target.dataset.project;
+    console.log('Project ID:', projectId); 
+    
+    // Si el proyecto existe en projectImages, crea el carrusel
+    if (projectImages[projectId]) {
+        createCarousel(projectImages[projectId], 3000); // Carga las imágenes del proyecto
+    }
+}
+
+// Añadir eventos a las imágenes de los proyectos
+function imagesModal() {
+    const projectImagesElements = document.querySelectorAll('.projects__content .projects__image');
+    
+    projectImagesElements.forEach(image => {
+        image.addEventListener('click', handleProjectClick);
     });
 }
 
