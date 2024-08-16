@@ -418,8 +418,9 @@ de la carpeta para compilarlo
 .about-me .about-me__title {
   margin-bottom: 5.6rem;
 }
-.about-me .about-me__subtitle {
-  margin-top: 5.6rem;
+
+.description .description__title {
+  margin-bottom: 5.6rem;
 }
 
 .herramientas {
