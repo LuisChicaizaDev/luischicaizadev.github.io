@@ -150,7 +150,7 @@ function createCarousel(images) {
     container.classList.add('show'); // Mostrar el modal del carrusel
 
     const btnClose = document.createElement('P');
-    btnClose.classList.add('btn-close-modal', 'btn-gray');
+    btnClose.classList.add('btn-close-modal', 'btn-khaki');
     btnClose.innerText = "Cerrar";
 
     // Crear HTML del carrusel
