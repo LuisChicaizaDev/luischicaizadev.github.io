@@ -145,7 +145,7 @@ function scrollNav(){
 }
 
 //Modal slider
-function createCarousel(images, interval = 2000) {
+function createCarousel(images) {
     const container = document.querySelector('.carouselContainer');
     container.classList.add('show'); // Mostrar el modal del carrusel
 
@@ -190,9 +190,8 @@ function createCarousel(images, interval = 2000) {
     container.appendChild(btnClose);
 
     // Inicializar el carrusel con Bootstrap
-    const myCarousel = new bootstrap.Carousel(document.getElementById('slider'), {
-      interval: interval,
-      touch: true
+    const myCarousel = new bootstrap.Carousel(document.querySelector('#slider'), {
+      touch: true,
     });
 
     // Evento para cerrar el modal
@@ -217,22 +216,21 @@ const projectImages = {
 
 // Función para manejar el clic en cualquier proyecto
 function handleProjectClick(event) {
+    const projectId = event.currentTarget.dataset.project;
+    console.log('Project ID:', projectId);  // Verifica el ID obtenido
 
-    const projectId = event.target.dataset.project;
-    console.log('Project ID:', projectId); 
-    
     // Si el proyecto existe en projectImages, crea el carrusel
-    if (projectImages[projectId]) {
-        createCarousel(projectImages[projectId], 3000); // Carga las imágenes del proyecto
+    if (projectImages[projectId]) { 
+        createCarousel(projectImages[projectId]); 
     }
 }
 
 // Añadir eventos a las imágenes de los proyectos
 function imagesModal() {
-    const projectImagesElements = document.querySelectorAll('.projects__content .projects__image');
+    const projectImagesElements = document.querySelectorAll('.projects__column--image');
     
     projectImagesElements.forEach(image => {
-        image.addEventListener('click', handleProjectClick);
+        image.addEventListener('click', handleProjectClick); 
     });
 }
 
