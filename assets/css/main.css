@@ -664,6 +664,7 @@ de la carpeta para compilarlo
   gap: 10px;
 }
 .carouselContainer .carousel {
+  width: min(95%, 50rem);
   margin: 0 1.6rem;
 }
 .carouselContainer .carousel .image-modal {
