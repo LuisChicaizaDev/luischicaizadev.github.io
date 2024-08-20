@@ -149,6 +149,18 @@
         width: 1.8rem;
     }
 }
+//Más proyectos
+.more__projects{
+    height: 0;
+    overflow-y: hidden;
+    transition: height .6s ease-in;
+
+    .projects__content{
+        &:first-child{
+            margin: 0 0 12rem 0;
+        }
+    }
+}
 
 // Modal carousel
 .carouselContainer{

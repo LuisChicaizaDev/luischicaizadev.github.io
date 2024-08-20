@@ -644,6 +644,15 @@ de la carpeta para compilarlo
   width: 1.8rem;
 }
 
+.more__projects {
+  height: 0;
+  overflow-y: hidden;
+  transition: height 0.6s ease-in;
+}
+.more__projects .projects__content:first-child {
+  margin: 0 0 12rem 0;
+}
+
 .carouselContainer {
   display: none;
   background-color: rgba(52, 52, 52, 0.65);
