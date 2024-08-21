@@ -218,9 +218,10 @@ const projectImages = {
         { src: '../../src/img/aera/aera-3.png', alt: 'Mockup del proyecto de Aera' }
     ],
     project2: [
-        { src: '../../src/img/default.png', alt: 'Imagen de Proyecto 2 - 1' },
-        { src: '../../src/img/default.png', alt: 'Imagen de Proyecto 2 - 2' },
-        { src: '../../src/img/default.png', alt: 'Imagen de Proyecto 2 - 3' }
+        { src: '../../src/img/anexa-luxury/anexa-1.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
+        { src: '../../src/img/anexa-luxury/anexa-2.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
+        { src: '../../src/img/anexa-luxury/anexa-3.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
+        { src: '../../src/img/anexa-luxury/anexa-4.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' }
     ]
 };
 
