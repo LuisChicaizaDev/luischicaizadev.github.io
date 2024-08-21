@@ -644,6 +644,14 @@ de la carpeta para compilarlo
   width: 1.8rem;
 }
 
+details[open] > summary {
+  color: #C3AA72;
+}
+
+details > summary {
+  color: #99acbb;
+}
+
 .more__projects {
   height: 0;
   overflow-y: hidden;

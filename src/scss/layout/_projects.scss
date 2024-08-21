@@ -149,6 +149,15 @@
         width: 1.8rem;
     }
 }
+
+
+details[open] > summary {
+    color: v.$dark-khaki;
+}
+details > summary {
+    color: v.$steel-gray-500;
+}
+
 //Más proyectos
 .more__projects{
     height: 0;
