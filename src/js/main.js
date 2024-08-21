@@ -209,9 +209,9 @@ function createCarousel(images) {
 // Galería de proyectos con imágenes
 const projectImages = {
     project1: [
-        { src: '../../src/img/proyecto-aera.png', alt: 'Imagen de Proyecto 1 - 1' },
-        { src: '../../src/img/proyecto-aera.png', alt: 'Imagen de Proyecto 1 - 2' },
-        { src: '../../src/img/proyecto-aera.png', alt: 'Imagen de Proyecto 1 - 3' }
+        { src: '../../src/img/aera/aera-1.png', alt: 'Mockup del proyecto de Aera' },
+        { src: '../../src/img/aera/aera-2.png', alt: 'Mockup del proyecto de Aera' },
+        { src: '../../src/img/aera/aera-3.png', alt: 'Mockup del proyecto de Aera' }
     ],
     project2: [
         { src: '../../src/img/default.png', alt: 'Imagen de Proyecto 2 - 1' },
