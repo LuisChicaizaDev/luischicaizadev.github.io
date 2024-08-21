@@ -13,7 +13,7 @@ Para poner en marcha este proyecto en tu entorno local, sigue estos pasos:
 
 Clona el repositorio:
 ```sh
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/LuisChicaizaDev/portafolio.git
 ```
 
 Instala las dependencias del proyecto:
