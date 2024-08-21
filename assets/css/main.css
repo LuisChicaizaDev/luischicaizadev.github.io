@@ -29,6 +29,9 @@ body {
 body.no-scroll {
   padding-top: 5.8rem;
 }
+body.block-body {
+  overflow: hidden;
+}
 
 @media (min-width: 1024px) {
   .cursor-custom {
@@ -681,7 +684,7 @@ details > summary {
   gap: 10px;
 }
 .carouselContainer .carousel {
-  width: min(95%, 50rem);
+  width: min(95%, 65rem);
   margin: 0 1.6rem;
 }
 .carouselContainer .carousel .image-modal {

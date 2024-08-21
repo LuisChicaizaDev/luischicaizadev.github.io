@@ -147,8 +147,11 @@ function scrollNav(){
 
 //Modal slider
 function createCarousel(images) {
+    const body = document.querySelector('BODY');
     const container = document.querySelector('.carouselContainer');
     container.classList.add('show'); // Mostrar el modal del carrusel
+
+    body.classList.add('block-body');
 
     const btnClose = document.createElement('P');
     btnClose.classList.add('btn-close-modal', 'btn-khaki');
@@ -204,6 +207,7 @@ function createCarousel(images) {
     btnClose.addEventListener('click', () => {
         container.innerHTML = '';  // Limpia el contenido del carrusel al cerrar
         container.classList.remove('show');
+        body.classList.remove('block-body');
     });
 }
 // Galería de proyectos con imágenes
