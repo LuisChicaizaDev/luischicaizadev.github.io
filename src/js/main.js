@@ -223,7 +223,9 @@ const projectImages = {
         { src: '../../src/img/anexa-luxury/anexa-1.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
         { src: '../../src/img/anexa-luxury/anexa-2.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
         { src: '../../src/img/anexa-luxury/anexa-3.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
-        { src: '../../src/img/anexa-luxury/anexa-4.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' }
+        { src: '../../src/img/anexa-luxury/anexa-4.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
+        { src: '../../src/img/anexa-luxury/anexa-5.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
+        { src: '../../src/img/anexa-luxury/anexa-6.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' }
     ]
 };
 
