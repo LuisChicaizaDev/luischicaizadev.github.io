@@ -684,11 +684,12 @@ details > summary {
   gap: 10px;
 }
 .carouselContainer .carousel {
-  width: min(95%, 65rem);
+  width: min(98%, 80rem);
   margin: 0 1.6rem;
 }
 .carouselContainer .carousel .image-modal {
-  max-width: fit-content;
+  max-width: 100%;
+  height: auto;
   border-radius: 0.8rem;
 }
 .carouselContainer .btn-close-modal {
