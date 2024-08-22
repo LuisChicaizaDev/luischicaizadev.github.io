@@ -226,6 +226,14 @@ const projectImages = {
         { src: '../../src/img/anexa-luxury/anexa-4.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
         { src: '../../src/img/anexa-luxury/anexa-5.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
         { src: '../../src/img/anexa-luxury/anexa-6.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' }
+    ],
+    project3: [
+        { src: '../../src/img/grupo-salux/salux-1.png', alt: 'Mockup del proyecto de Grupo Salux' },
+        { src: '../../src/img/grupo-salux/salux-2.png', alt: 'Mockup del proyecto de Grupo Salux' },
+        { src: '../../src/img/grupo-salux/salux-3.png', alt: 'Mockup del proyecto de Grupo Salux' },
+        { src: '../../src/img/grupo-salux/salux-4.png', alt: 'Mockup del proyecto de Grupo Salux' },
+        { src: '../../src/img/grupo-salux/salux-5.png', alt: 'Mockup del proyecto de Grupo Salux' },
+        { src: '../../src/img/grupo-salux/salux-6.png', alt: 'Mockup del proyecto de Grupo Salux' }
     ]
 };
 
