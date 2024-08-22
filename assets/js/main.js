@@ -234,6 +234,19 @@ const projectImages = {
         { src: '../../src/img/grupo-salux/salux-4.png', alt: 'Mockup del proyecto de Grupo Salux' },
         { src: '../../src/img/grupo-salux/salux-5.png', alt: 'Mockup del proyecto de Grupo Salux' },
         { src: '../../src/img/grupo-salux/salux-6.png', alt: 'Mockup del proyecto de Grupo Salux' }
+    ],
+    project4: [
+        { src: '../../src/img/portafolio/portafolio-1.png', alt: 'Mockup del proyecto de mi Portafolio' },
+        { src: '../../src/img/portafolio/portafolio-2.png', alt: 'Mockup del proyecto de mi Portafolio' },
+        { src: '../../src/img/portafolio/portafolio-3.png', alt: 'Mockup del proyecto de mi Portafolio' },
+        { src: '../../src/img/portafolio/portafolio-4.png', alt: 'Mockup del proyecto de mi Portafolio' },
+        { src: '../../src/img/portafolio/portafolio-5.png', alt: 'Mockup del proyecto de mi Portafolio' }
+    ],
+    project7: [
+        { src: '../../src/img/museo-aire-libre/museo-1.png', alt: 'Mockup del proyecto de Museo al Aire Libre' },
+        { src: '../../src/img/museo-aire-libre/museo-2.png', alt: 'Mockup del proyecto de Museo al Aire Libre' },
+        { src: '../../src/img/museo-aire-libre/museo-3.png', alt: 'Mockup del proyecto de Museo al Aire Libre' },
+        { src: '../../src/img/museo-aire-libre/museo-4.png', alt: 'Mockup del proyecto de Museo al Aire Libre' }
     ]
 };
 
