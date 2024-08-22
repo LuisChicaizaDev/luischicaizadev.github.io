@@ -186,10 +186,11 @@ details > summary {
     top: 0;
     bottom: 0;
     z-index: 20;
+    transition: display .1s ease allow-discrete;
 
     &.show{
         display: grid;
-        gap: 10px;
+        gap: 2.4rem;
     }
 
 
