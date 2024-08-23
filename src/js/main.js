@@ -242,6 +242,13 @@ const projectImages = {
         { src: '../../src/img/portafolio/portafolio-4.png', alt: 'Mockup del proyecto de mi Portafolio' },
         { src: '../../src/img/portafolio/portafolio-5.png', alt: 'Mockup del proyecto de mi Portafolio' }
     ],
+    project5: [
+        { src: '../../src/img/festival-musica/festival-1.png', alt: 'Mockup del proyecto de mi Portafolio' },
+        { src: '../../src/img/festival-musica/festival-2.png', alt: 'Mockup del proyecto de mi Portafolio' },
+        { src: '../../src/img/festival-musica/festival-3.png', alt: 'Mockup del proyecto de mi Portafolio' },
+        { src: '../../src/img/festival-musica/festival-4.png', alt: 'Mockup del proyecto de mi Portafolio' },
+        { src: '../../src/img/festival-musica/festival-5.png', alt: 'Mockup del proyecto de mi Portafolio' }
+    ],
     project6: [
         { src: '../../src/img/blog-cafe/blog-1.png', alt: 'Mockup del proyecto de Blog de Café' },
         { src: '../../src/img/blog-cafe/blog-2.png', alt: 'Mockup del proyecto de Blog de Café' },
