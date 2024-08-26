@@ -82,7 +82,7 @@
         color: v.$dark-khaki;
         width: 5.2rem;
         height: 5.2rem;
-        animation: shake 3s ease infinite;
+        animation: custom-shake 3s ease infinite;
         animation-fill-mode: both;
     }
     
@@ -153,7 +153,7 @@
     visibility: visible;
 }
 
-@keyframes shake{
+@keyframes custom-shake{
     0% {
         transform: scaleX(1);
     }
