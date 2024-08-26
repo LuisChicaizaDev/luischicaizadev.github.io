@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 
 function iniciarApp() {
+    wowJs();
     customCursor();
     fixedNavigation();
     scrollNav();
@@ -11,6 +12,10 @@ function iniciarApp() {
     imagesModal();
     moreProjects()
 }
+// Inicia wowjs
+function wowJs(){
+    new WOW().init();
+ }
 //Custom cursor
 function customCursor(){
     const cursor = document.querySelector('.cursor-custom');
