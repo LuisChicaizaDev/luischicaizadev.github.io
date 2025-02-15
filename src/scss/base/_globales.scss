@@ -23,7 +23,9 @@ body{
     font-size: 1.6rem; /*16px*/
     line-height: 1.6;
     color: v.$white;
-    background-color: v.$black;
+    //background-color: v.$black;
+    background: rgb(41,41,41);
+    background: linear-gradient(0deg, rgba(41,41,41,1) 0%, rgba(45,50,57,1) 50%, rgba(41,41,41,1) 100%);
     overflow-x: hidden;
     &.no-scroll{
         padding-top: 5.8rem;
@@ -161,9 +163,9 @@ a{
         @include m.padding-desktop(72px);
     }
 }
-.bg-gray-950{
+/* .bg-gray-950{
     background-color: v.$steel-gray-950;
-}
+} */
 .color-khaki{
     color: v.$dark-khaki;
 }
