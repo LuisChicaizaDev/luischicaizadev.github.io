@@ -211,7 +211,12 @@ details > summary {
 
     .btn-close-modal{
         margin-top: .6rem;
+        box-shadow: none;
         cursor: pointer;
+    }
+
+    .icon-tabler-logout{
+        transform: rotate(180deg);
     }
     
 }
