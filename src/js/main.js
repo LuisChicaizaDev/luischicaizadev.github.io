@@ -218,13 +218,23 @@ function createCarousel(images) {
 // Galería de proyectos con imágenes
 const projectImages = {
     project1: [
+        { src: 'assets/img/boxeo-project/boxeo-1.webp', alt: 'Mockup del proyecto de Boxeo Project' },
+        { src: 'assets/img/boxeo-project/boxeo-2.webp', alt: 'Mockup del proyecto de Boxeo Project' },
+        { src: 'assets/img/boxeo-project/boxeo-3.webp', alt: 'Mockup del proyecto de Boxeo Project' },
+        { src: 'assets/img/boxeo-project/boxeo-4.webp', alt: 'Mockup del proyecto de Boxeo Project' },
+        { src: 'assets/img/boxeo-project/boxeo-5.webp', alt: 'Mockup del proyecto de Boxeo Project' },
+        { src: 'assets/img/boxeo-project/boxeo-6.webp', alt: 'Mockup del proyecto de Boxeo Project' },
+        { src: 'assets/img/boxeo-project/boxeo-7.webp', alt: 'Mockup del proyecto de Boxeo Project' },
+        { src: 'assets/img/boxeo-project/boxeo-8.webp', alt: 'Mockup del proyecto de Boxeo Project' }
+    ],
+    project2: [
         { src: 'assets/img/aera/aera-1.png', alt: 'Mockup del proyecto de Aera' },
         { src: 'assets/img/aera/aera-2.png', alt: 'Mockup del proyecto de Aera' },
         { src: 'assets/img/aera/aera-3.png', alt: 'Mockup del proyecto de Aera' },
         { src: 'assets/img/aera/aera-4.png', alt: 'Mockup del proyecto de Aera' },
         { src: 'assets/img/aera/aera-5.png', alt: 'Mockup del proyecto de Aera' }
     ],
-    project2: [
+    project3: [
         { src: 'assets/img/anexa-luxury/anexa-1.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
         { src: 'assets/img/anexa-luxury/anexa-2.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
         { src: 'assets/img/anexa-luxury/anexa-3.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
@@ -232,7 +242,7 @@ const projectImages = {
         { src: 'assets/img/anexa-luxury/anexa-5.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
         { src: 'assets/img/anexa-luxury/anexa-6.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' }
     ],
-    project3: [
+    project4: [
         { src: 'assets/img/grupo-salux/salux-1.png', alt: 'Mockup del proyecto de Grupo Salux' },
         { src: 'assets/img/grupo-salux/salux-2.png', alt: 'Mockup del proyecto de Grupo Salux' },
         { src: 'assets/img/grupo-salux/salux-3.png', alt: 'Mockup del proyecto de Grupo Salux' },
@@ -240,27 +250,27 @@ const projectImages = {
         { src: 'assets/img/grupo-salux/salux-5.png', alt: 'Mockup del proyecto de Grupo Salux' },
         { src: 'assets/img/grupo-salux/salux-6.png', alt: 'Mockup del proyecto de Grupo Salux' }
     ],
-    project4: [
+    project5: [
         { src: 'assets/img/portafolio/portafolio-1.png', alt: 'Mockup del proyecto de mi Portafolio' },
         { src: 'assets/img/portafolio/portafolio-2.png', alt: 'Mockup del proyecto de mi Portafolio' },
         { src: 'assets/img/portafolio/portafolio-3.png', alt: 'Mockup del proyecto de mi Portafolio' },
         { src: 'assets/img/portafolio/portafolio-4.png', alt: 'Mockup del proyecto de mi Portafolio' },
         { src: 'assets/img/portafolio/portafolio-5.png', alt: 'Mockup del proyecto de mi Portafolio' }
     ],
-    project5: [
+    project6: [
         { src: 'assets/img/festival-musica/festival-1.png', alt: 'Mockup del proyecto de mi Portafolio' },
         { src: 'assets/img/festival-musica/festival-2.png', alt: 'Mockup del proyecto de mi Portafolio' },
         { src: 'assets/img/festival-musica/festival-3.png', alt: 'Mockup del proyecto de mi Portafolio' },
         { src: 'assets/img/festival-musica/festival-4.png', alt: 'Mockup del proyecto de mi Portafolio' },
         { src: 'assets/img/festival-musica/festival-5.png', alt: 'Mockup del proyecto de mi Portafolio' }
     ],
-    project6: [
+    project7: [
         { src: 'assets/img/blog-cafe/blog-1.png', alt: 'Mockup del proyecto de Blog de Café' },
         { src: 'assets/img/blog-cafe/blog-2.png', alt: 'Mockup del proyecto de Blog de Café' },
         { src: 'assets/img/blog-cafe/blog-3.png', alt: 'Mockup del proyecto de Blog de Café' },
         { src: 'assets/img/blog-cafe/blog-4.png', alt: 'Mockup del proyecto de Blog de Café' }
     ],
-    project7: [
+    project8: [
         { src: 'assets/img/museo-aire-libre/museo-1.png', alt: 'Mockup del proyecto de Museo al Aire Libre' },
         { src: 'assets/img/museo-aire-libre/museo-2.png', alt: 'Mockup del proyecto de Museo al Aire Libre' },
         { src: 'assets/img/museo-aire-libre/museo-3.png', alt: 'Mockup del proyecto de Museo al Aire Libre' },
