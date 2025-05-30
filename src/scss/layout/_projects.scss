@@ -2,6 +2,9 @@
 @use 'base/mixins' as m;
 
 .projects{
+    @include m.desktop{
+        padding: 7.2rem 2.4rem;
+    }
 
     .projects__title{
         margin-bottom: 9.6rem;
@@ -16,19 +19,22 @@
    
 }
 
-.projects__content{
+.projects-container {
     display: grid;
-    grid-template-columns: 1fr;
-    margin: 12rem 0;
-    gap: 4rem;
+    gap: 4.8rem;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
 
-    @include m.desktop{
-        grid-template-columns: 1fr 2fr;
-    }
-
-    @include m.desktopXl{
-        gap: 8rem;
-    }
+.projects__content{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    border-radius: 2.4rem;
+    background-color: v.$steel-gray-950;
+    padding: 1.6rem;
+    border: 1px solid v.$steel-gray-900;
+    box-shadow:  8px 8px 24px #1e2126,
+             -8px -8px 24px #333941;
 
     .projects__project-title{
         position: relative;
@@ -50,17 +56,13 @@
     }
 
     .projects__column--image{
-        height: 29rem;
         margin: 0 auto;
         align-self: center;
         overflow: hidden;
-        border-radius: 2.4rem;
+        border-radius: 1.6rem;
         padding: 0 !important;
         position: relative;
 
-        @include m.tablet{
-            width: 42rem;
-        }
         &:hover .project-icon-box {
             opacity: 1;
             transform: translate(-50%, -50%) scale(1); 
@@ -110,30 +112,6 @@
     }
 }
 
-.projects__content{
-
-    &.column__image--right{
-        @include m.desktop{
-            grid-template-columns: 2fr 1fr;
-        }
-        .projects__column--image{
-            grid-row: 1 / 2;
-            @include m.desktop{
-                grid-column: 2 / 3;
-            }
-        }
-
-    }
-}
-
-.projects__column--info{
-    border-radius: 1.6rem;
-    background-color: v.$steel-gray-950;
-    padding: 2.4rem 1.6rem;
-    box-shadow: inset 16px 16px 32px #272b31,
-            inset -16px -16px 32px #333941;
-
-}
 .projects__tags{
 
 
@@ -168,9 +146,7 @@ details > summary {
     transition: height .6s ease-in;
 
     .projects__content{
-        &:first-child{
-            margin: 0 0 12rem 0;
-        }
+        margin: 4.8rem 0;
     }
 }
 
