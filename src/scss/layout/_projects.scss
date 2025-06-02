@@ -150,6 +150,11 @@ details > summary {
         padding-left: 3rem;
     }
 
+    .project {
+        border-bottom: 1px solid v.$steel-gray-800;
+        padding-bottom: 1.6rem;
+    }
+
     .projects__button {
         height: auto;
         padding: .4rem 1.2rem;
