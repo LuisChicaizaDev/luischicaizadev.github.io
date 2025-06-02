@@ -136,13 +136,6 @@ details > summary {
     color: v.$steel-gray-500;
 }
 
-//Más proyectos
-.more__projects{
-    height: 0;
-    overflow-y: hidden;
-    transition: height .6s ease-in;
-}
-
 // Modal carousel
 .carouselContainer{
     display: none;

@@ -10,7 +10,6 @@ function iniciarApp() {
     scrollNav();
     scrollFunction();
     imagesModal();
-    moreProjects()
 }
 // Inicia wowjs
 function wowJs(){
@@ -295,26 +294,6 @@ function imagesModal() {
     
     projectImagesElements.forEach(image => {
         image.addEventListener('click', handleProjectClick); 
-    });
-}
-
-// Mostrar más proyectos
-function moreProjects(){
-    const moreProjectsButton = document.querySelector('.more-projects__button button');
-    const showProjects = document.querySelector('.more__projects');
-    const textButton = moreProjectsButton.querySelector('SPAN');
-
-    moreProjectsButton.addEventListener('click', () =>{
-        
-        let height = 0;
-        if(showProjects.clientHeight == '0'){
-            height = showProjects.scrollHeight;
-            showProjects.style.height = `${height}px`;
-            textButton.innerHTML = 'Menos Proyectos';
-        }else{
-            showProjects.style.height = '0px';
-            textButton.innerHTML = 'Más Proyectos';
-        }
     });
 }
 
