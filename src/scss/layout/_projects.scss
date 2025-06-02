@@ -136,6 +136,26 @@ details > summary {
     color: v.$steel-gray-500;
 }
 
+// Otros Proyectos
+.other-projects {
+
+    .other-project__title {
+        
+        @include m.desktop {
+            text-align: center;
+        }
+    }
+    .other-projects__content {
+        padding-top: 3rem;
+        padding-left: 3rem;
+    }
+
+    .projects__button {
+        height: auto;
+        padding: .4rem 1.2rem;
+    }
+}
+
 // Modal carousel
 .carouselContainer{
     display: none;
