@@ -1,0 +1,158 @@
+{
+  "featured_projects": [
+    {
+    "img": { 
+        "src" : "/assets/img/proyecto-boxeo-project.webp",
+        "alt": "Página de Inicio de Boxeo Project",
+        "title": "Boxeo Project"
+    },
+    "title": "Boxeo Project",
+    "year": "2025",
+    "tags": ["HTML", "CSS", "Sass", "JavaScript", "PHP", "MySQL"],
+    "description": [
+      "Proyecto desarrollado como Trabajo de Fin de Curso en el Grado Superior de Desarrollo de Aplicaciones Web.",
+      "Sitio web para la publicación y gestión de veladas de boxeo. Permite a los organizadores registrarse, administrar sus veladas y gestionar a los boxeadores de manera sencilla y rápida."
+    ],
+    "features": [
+      "CRUD para la gestión de usuarios, veladas y boxeadores",
+      "Sistema de autenticación",
+      "Recuperación de contraseña",
+      "Validaciones frontend y backend"
+    ],
+    "links": {
+        "github": "https://github.com/LuisChicaizaDev/proyecto-daw",
+        "deploy": "https://boxeoproject.free.nf/",
+        "figma": ""
+    }
+  },
+  {
+    "img": { 
+        "src" : "/assets/img/proyecto-aera.webp",
+        "alt": "Página de Inicio de Aera Korean Beauty",
+        "title": "Aera Korean Beauty"
+    },
+    "title": "Aera Korean Beauty",
+    "year": "2024 | Actualizado 2025",
+    "tags": ["HTML", "CSS", "Sass", "JavaScript", "Figma"],
+    "description": [
+      "Diseñé y desarrollé un sitio web completo para un estudio de cosmética coreana, con el objetivo de aumentar su visibilidad en línea y destacar todos los servicios que ofrece. El sitio web consta de 7 páginas que detallan cada servicio del estudio, además de incluir las páginas legales correspondientes."
+    ],
+    "features": [],
+    "links": {
+        "github": "",
+        "figma": "https://www.figma.com/design/84O4uO0UtmZ2DAZ1h36cXN/AERA?node-id=0-1&t=topGIvKZISVBDgKF-1",
+        "deploy": "https://aerakoreanbeauty.com/"
+    }
+  },
+  {
+    "img": { 
+        "src" : "/assets/img/proyecto-anexa-luxury-cars.png",
+        "alt": "Página de Inicio de Anexa Luxury Cars",
+        "title": "Anexa Luxury Cars"
+    },
+    "title": "Anexa Luxury Cars",
+    "year": "2024",
+    "tags": ["WordPress", "HTML", "CSS", "PHP"],
+    "description": [
+      "Construí el sitio web en WordPress, para una empresa dedicada a la compra y venta de coches. El sitio permite a los usuarios explorar el catálogo de vehículos y contactar fácilmente a través de formularios o WhatsApp para consultas y ventas personalizadas. Está en producción pero el desarrollo continúa con nuevas características en implementación."
+    ],
+    "features": [],
+    "links": {
+        "github": "",
+        "figma": "",
+        "deploy": "https://anexaluxurycars.com/"
+    }
+  },
+  {
+    "img": { 
+        "src" : "/assets/img/proyecto-grupo-salux.png",
+        "alt": "Página de Inicio de Grupo Salux",
+        "title": "Grupo Salux"
+    },
+    "title": "Grupo Salux",
+    "year": "2024",
+    "tags": ["WordPress", "HTML", "CSS", "JavaScript"],
+    "description": [
+      "Desarrollé el sitio web en WordPress para una red de clínicas especializadas en accidentes de tráfico, ubicadas en varias ciudades del sur de España. El objetivo del sitio fue mejorar la visibilidad de las clínicas en línea y facilitar el acceso de los pacientes a los servicios ofrecidos en cada ubicación. Actualmente, el sitio web está pendiente de la aprobación final."
+    ],
+    "features": [],
+    "links": {
+        "github": "",
+        "figma": "",
+        "deploy": "https://dev.gruposalux.clinic/"
+    }
+  },
+  {
+    "img": { 
+        "src" : "/assets/img/proyecto-portafolio.png",
+        "alt": "Página de Inicio de Mi Portafolio",
+        "title": "Mi Portafolio"
+    },
+    "title": "Mi Portafolio",
+    "year": "2024",
+    "tags": ["HTML", "CSS","Sass", "Bootstrap", "JavaScript", "Figma"],
+    "description": [
+      "Diseñé y desarrollé mi propio portafolio web para mostrar mis habilidades y proyectos como desarrollador. Utilicé HTML5, CSS3, JavaScript, y diversas herramientas como Bootstrap y Figma para crear una experiencia de usuario atractiva y funcional. El sitio está alojado en GitHub Pages y es un reflejo de mi estilo y capacidad técnica."
+    ],
+    "features": [],
+    "links": {
+        "github": "https://github.com/LuisChicaizaDev/portafolio",
+        "figma": "https://www.figma.com/design/WeNnFeKRaNvDGLE61odkBL/Portfolio?node-id=0-1&t=adTj7TRP45FMykS5-1",
+        "deploy": ""
+    }
+  }
+  ],
+
+  "other_projects": [
+    {
+      "title": "Perfil Bento Tailwind",
+      "year": "2025",
+      "tags": ["Tailwind CSS", "HTML"],
+      "description": "Proyecto práctico del curso de MiduDev.",
+      "links": {
+        "github": "https://github.com/LuisChicaizaDev/perfil-bento-tailwind",
+        "deploy": "https://perfil-bento-tailwind.netlify.app/"
+      }
+    },
+    {
+      "title": "App Tareas React",
+      "year": "2025",
+      "tags": ["CSS", "React"],
+      "description": "Se desarrolló una aplicación para gestionar tareas personales con persistencia de datos.",
+      "links": {
+        "github": "https://github.com/LuisChicaizaDev/app-tareas-react",
+        "deploy": "https://app-tareas-react-sage.vercel.app/"
+      }
+    },
+    {
+      "title": "Festival de Música",
+      "year": "2024",
+      "tags": ["HTML", "CSS", "Sass", "JavaScript"],
+      "description": "Creé una página para un festival de música ficticio como proyecto de práctica para aprender y aplicar Sass. Este fue mi primer contacto con Sass, me enfoqué en desarrollar una estructura visual atractiva con HTML y CSS, y añadir dinamismo con JavaScript. Aunque la información es inventada, el proyecto fue clave para familiarizarme con un preprocesador CSS.",
+      "links": {
+        "github": "https://github.com/LuisChicaizaDev/festival-musica",
+        "deploy": "https://v-festival-musica.netlify.app/"
+      }
+    },
+    {
+      "title": "Blog de Café",
+      "year": "2023",
+      "tags": ["HTML", "CSS", "Grid", "Flexbox"],
+      "description": "Creé un blog ficticio sobre café para mejorar y fortalecer mis conocimientos en el diseño responsivo utilizando CSS Grid y Flexbox. El proyecto incluye una página de cursos y una de contacto, con información inventada y de poca relevancia. El objetivo principal fue practicar y dominar estas técnicas de layout en CSS, fortaleciendo mis habilidades en diseño web adaptable.",
+      "links": {
+        "github": "https://github.com/LuisChicaizaDev/blog-cafe",
+        "deploy": "https://v1-demo-blog-cafe.netlify.app/"
+      }
+    },
+    {
+      "title": "Museo al Aire Libre",
+      "year": "2023",
+      "tags": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
+      "description": "Este fue mi primer proyecto grupal realizado durante el curso de Desarrollo de Aplicaciones Web, donde destacamos las esculturas de la ciudad de Oviedo, España. Aplicamos la metodología ágil Scrum. Nos encargamos de todo el proceso, desde la toma y edición de fotografías hasta la creación completa del sitio web, marcando mi primer contacto con el mundo de la programación.",
+      "links": {
+        "github": "",
+        "deploy": "http://oviedomuseoairelibre.com/"
+      }
+    }
+  ]
+}
