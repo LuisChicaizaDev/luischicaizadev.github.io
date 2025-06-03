@@ -11,9 +11,9 @@
         margin-top: 4rem;
     }
     .projects__date{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-style: italic;
-        padding-left: 1.6rem;
+        padding-left: 1.2rem;
         font-weight: v.$w-bold;
     }
    
@@ -38,22 +38,7 @@
              -8px -8px 24px #333941;
 
     .projects__project-title{
-        position: relative;
-        padding-left: 4rem;
-
-        &::before{
-            content: "";
-        position: absolute;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 3rem;
-        height: 2rem;
-        background-image: url(/static/linea.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: left center;
-        }
+        padding-left: 1.2rem;
     }
 
     .projects__column--image{
