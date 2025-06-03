@@ -10,7 +10,6 @@ function iniciarApp() {
     scrollNav();
     loadProjects();
     scrollFunction();
-    imagesModal();
 }
 // Inicia wowjs
 function wowJs(){
@@ -171,10 +170,12 @@ async function loadProjects() {
             throw new Error("Formato de JSON inválido en Proyectos Destacados");
         }
         
-        //console.log("Proyectos cargados:", featuredProjects[0].links.figma ? 'Si hay enlace' : "no hay enlace");
+        //console.log("Proyectos cargados:", featuredProjects.map ((project, index) => `Proyecto ${index + 1}: ${project.title}`));
         // Renderiza los proyectos
         renderFeaturedProjects(featuredProjects);
         renderOtherProjects(otherProjects);
+        // Después de renderizar los proyectos, inicializa el modal de imágenes
+        imagesModal(featuredProjects);
 
     } catch (error) {
         console.error("Error al cargar los proyectos:", error);
@@ -185,11 +186,11 @@ async function loadProjects() {
 function renderFeaturedProjects(projects) {
     const container = document.querySelector('.projects-container'); 
 
-    container.innerHTML = projects.map(project => `
+    container.innerHTML = projects.map( (project, index) => `
         <div class="projects__content">
 
             <!--Imagen-->
-            <div class="projects__column projects__column--image wow fadeIn" data-wow-duration="2.25s" data-wow-delay="0.5s" data-project="project1">
+            <div class="projects__column projects__column--image wow fadeIn" data-wow-duration="2.25s" data-wow-delay="0.5s" data-index="${index + 1}">
                 <div class="project-icon-box">
                     <div class="icon-inner">
                         <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-eye">
@@ -209,7 +210,7 @@ function renderFeaturedProjects(projects) {
                     ${project.title}
                 </h3>
                 <span class="projects__date color-khaki">${project.year}</span>
-                <div class="projects__tags d-flex flex-wrap gap-3 my-4">
+                <div class="projects__tags d-flex flex-wrap gap-2 my-4">
                     ${project.tags.map (tag => `<span class="projects__tag"> ${tag}</span>`).join('')}
                 </div>
                 
@@ -281,7 +282,7 @@ function renderOtherProjects(projects) {
 
             <span class="projects__date color-khaki p-0">${project.year}</span>
 
-            <div class="projects__tags my-3 d-flex flex-wrap gap-3">
+            <div class="projects__tags my-3 d-flex flex-wrap gap-2">
                 ${project.tags.map (tag => `<span class="projects__tag"> ${tag} </span>`).join('')} 
             </div>
 
@@ -386,87 +387,26 @@ function createCarousel(images) {
         body.classList.remove('block-body');
     });
 }
-// Galería de proyectos con imágenes
-const projectImages = {
-    project1: [
-        { src: 'assets/img/boxeo-project/boxeo-1.webp', alt: 'Mockup del proyecto de Boxeo Project' },
-        { src: 'assets/img/boxeo-project/boxeo-2.webp', alt: 'Mockup del proyecto de Boxeo Project' },
-        { src: 'assets/img/boxeo-project/boxeo-3.webp', alt: 'Mockup del proyecto de Boxeo Project' },
-        { src: 'assets/img/boxeo-project/boxeo-4.webp', alt: 'Mockup del proyecto de Boxeo Project' },
-        { src: 'assets/img/boxeo-project/boxeo-5.webp', alt: 'Mockup del proyecto de Boxeo Project' },
-        { src: 'assets/img/boxeo-project/boxeo-6.webp', alt: 'Mockup del proyecto de Boxeo Project' },
-        { src: 'assets/img/boxeo-project/boxeo-7.webp', alt: 'Mockup del proyecto de Boxeo Project' },
-        { src: 'assets/img/boxeo-project/boxeo-8.webp', alt: 'Mockup del proyecto de Boxeo Project' }
-    ],
-    project2: [
-        { src: 'assets/img/aera/aera-1.png', alt: 'Mockup del proyecto de Aera' },
-        { src: 'assets/img/aera/aera-2.png', alt: 'Mockup del proyecto de Aera' },
-        { src: 'assets/img/aera/aera-3.png', alt: 'Mockup del proyecto de Aera' },
-        { src: 'assets/img/aera/aera-4.png', alt: 'Mockup del proyecto de Aera' },
-        { src: 'assets/img/aera/aera-5.png', alt: 'Mockup del proyecto de Aera' }
-    ],
-    project3: [
-        { src: 'assets/img/anexa-luxury/anexa-1.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
-        { src: 'assets/img/anexa-luxury/anexa-2.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
-        { src: 'assets/img/anexa-luxury/anexa-3.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
-        { src: 'assets/img/anexa-luxury/anexa-4.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
-        { src: 'assets/img/anexa-luxury/anexa-5.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' },
-        { src: 'assets/img/anexa-luxury/anexa-6.png', alt: 'Mockup del proyecto de Anexa Luxury Cars' }
-    ],
-    project4: [
-        { src: 'assets/img/grupo-salux/salux-1.png', alt: 'Mockup del proyecto de Grupo Salux' },
-        { src: 'assets/img/grupo-salux/salux-2.png', alt: 'Mockup del proyecto de Grupo Salux' },
-        { src: 'assets/img/grupo-salux/salux-3.png', alt: 'Mockup del proyecto de Grupo Salux' },
-        { src: 'assets/img/grupo-salux/salux-4.png', alt: 'Mockup del proyecto de Grupo Salux' },
-        { src: 'assets/img/grupo-salux/salux-5.png', alt: 'Mockup del proyecto de Grupo Salux' },
-        { src: 'assets/img/grupo-salux/salux-6.png', alt: 'Mockup del proyecto de Grupo Salux' }
-    ],
-    project5: [
-        { src: 'assets/img/portafolio/portafolio-1.png', alt: 'Mockup del proyecto de mi Portafolio' },
-        { src: 'assets/img/portafolio/portafolio-2.png', alt: 'Mockup del proyecto de mi Portafolio' },
-        { src: 'assets/img/portafolio/portafolio-3.png', alt: 'Mockup del proyecto de mi Portafolio' },
-        { src: 'assets/img/portafolio/portafolio-4.png', alt: 'Mockup del proyecto de mi Portafolio' },
-        { src: 'assets/img/portafolio/portafolio-5.png', alt: 'Mockup del proyecto de mi Portafolio' }
-    ],
-    project6: [
-        { src: 'assets/img/festival-musica/festival-1.png', alt: 'Mockup del proyecto de mi Portafolio' },
-        { src: 'assets/img/festival-musica/festival-2.png', alt: 'Mockup del proyecto de mi Portafolio' },
-        { src: 'assets/img/festival-musica/festival-3.png', alt: 'Mockup del proyecto de mi Portafolio' },
-        { src: 'assets/img/festival-musica/festival-4.png', alt: 'Mockup del proyecto de mi Portafolio' },
-        { src: 'assets/img/festival-musica/festival-5.png', alt: 'Mockup del proyecto de mi Portafolio' }
-    ],
-    project7: [
-        { src: 'assets/img/blog-cafe/blog-1.png', alt: 'Mockup del proyecto de Blog de Café' },
-        { src: 'assets/img/blog-cafe/blog-2.png', alt: 'Mockup del proyecto de Blog de Café' },
-        { src: 'assets/img/blog-cafe/blog-3.png', alt: 'Mockup del proyecto de Blog de Café' },
-        { src: 'assets/img/blog-cafe/blog-4.png', alt: 'Mockup del proyecto de Blog de Café' }
-    ],
-    project8: [
-        { src: 'assets/img/museo-aire-libre/museo-1.png', alt: 'Mockup del proyecto de Museo al Aire Libre' },
-        { src: 'assets/img/museo-aire-libre/museo-2.png', alt: 'Mockup del proyecto de Museo al Aire Libre' },
-        { src: 'assets/img/museo-aire-libre/museo-3.png', alt: 'Mockup del proyecto de Museo al Aire Libre' },
-        { src: 'assets/img/museo-aire-libre/museo-4.png', alt: 'Mockup del proyecto de Museo al Aire Libre' }
-    ]
-};
 
-// Función para manejar el clic en cualquier proyecto
-function handleProjectClick(event) {
-    const projectId = event.currentTarget.dataset.project;
-    console.log('Project ID:', projectId);  // Verifica el ID obtenido
-
-    // Si el proyecto existe en projectImages, crea el carrusel
-    if (projectImages[projectId]) { 
-        createCarousel(projectImages[projectId]); 
-    }
-}
-
-// Añadir eventos a las imágenes de los proyectos
-function imagesModal() {
+// Creará el carrusel con las imágenes de los proyectos
+function imagesModal(projects) {
     const projectImagesElements = document.querySelectorAll('.projects__column--image');
     
-    projectImagesElements.forEach(image => {
-        image.addEventListener('click', handleProjectClick); 
-    });
+    projectImagesElements.forEach( image => {
+        image.addEventListener('click', (e) => {
+            const index = e.currentTarget.dataset.index;
+            //console.log(`Proyecto ${index} seleccionado`);
+
+            // Obtenemos el proyecto que corresponde al indice
+            const mockups = projects[index - 1] && projects[index - 1].mockups;
+
+            if(mockups && Array.isArray(mockups) && mockups.length) {
+                createCarousel(mockups);
+            } else {
+                console.error("El proyecto no tiene imágenes o el formato es incorrecto.");
+            }
+        });
+    } );
 }
 
 //Back to top

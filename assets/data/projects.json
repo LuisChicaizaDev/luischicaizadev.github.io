@@ -2,9 +2,9 @@
   "featured_projects": [
     {
     "img": { 
-        "src" : "/assets/img/proyecto-boxeo-project.webp",
-        "alt": "Página de Inicio de Boxeo Project",
-        "title": "Boxeo Project"
+      "src" : "/assets/img/proyecto-boxeo-project.webp",
+      "alt": "Página de Inicio de Boxeo Project",
+      "title": "Boxeo Project"
     },
     "title": "Boxeo Project",
     "year": "2025",
@@ -20,16 +20,26 @@
       "Validaciones frontend y backend"
     ],
     "links": {
-        "github": "https://github.com/LuisChicaizaDev/proyecto-daw",
-        "deploy": "https://boxeoproject.free.nf/",
-        "figma": ""
-    }
+      "github": "https://github.com/LuisChicaizaDev/proyecto-daw",
+      "deploy": "https://boxeoproject.free.nf/",
+      "figma": ""
+    },
+    "mockups": [
+      { "src": "assets/img/boxeo-project/boxeo-1.webp", "alt": "Mockup del proyecto de Boxeo Project" },
+      { "src": "assets/img/boxeo-project/boxeo-2.webp", "alt": "Mockup del proyecto de Boxeo Project" },
+      { "src": "assets/img/boxeo-project/boxeo-3.webp", "alt": "Mockup del proyecto de Boxeo Project" },
+      { "src": "assets/img/boxeo-project/boxeo-4.webp", "alt": "Mockup del proyecto de Boxeo Project" },
+      { "src": "assets/img/boxeo-project/boxeo-5.webp", "alt": "Mockup del proyecto de Boxeo Project" },
+      { "src": "assets/img/boxeo-project/boxeo-6.webp", "alt": "Mockup del proyecto de Boxeo Project" },
+      { "src": "assets/img/boxeo-project/boxeo-7.webp", "alt": "Mockup del proyecto de Boxeo Project" },
+      { "src": "assets/img/boxeo-project/boxeo-8.webp", "alt": "Mockup del proyecto de Boxeo Project" }
+    ]
   },
   {
     "img": { 
-        "src" : "/assets/img/proyecto-aera.webp",
-        "alt": "Página de Inicio de Aera Korean Beauty",
-        "title": "Aera Korean Beauty"
+      "src" : "/assets/img/proyecto-aera.webp",
+      "alt": "Página de Inicio de Aera Korean Beauty",
+      "title": "Aera Korean Beauty"
     },
     "title": "Aera Korean Beauty",
     "year": "2024 | Actualizado 2025",
@@ -39,16 +49,23 @@
     ],
     "features": [],
     "links": {
-        "github": "",
-        "figma": "https://www.figma.com/design/84O4uO0UtmZ2DAZ1h36cXN/AERA?node-id=0-1&t=topGIvKZISVBDgKF-1",
-        "deploy": "https://aerakoreanbeauty.com/"
-    }
+      "github": "",
+      "figma": "https://www.figma.com/design/84O4uO0UtmZ2DAZ1h36cXN/AERA?node-id=0-1&t=topGIvKZISVBDgKF-1",
+      "deploy": "https://aerakoreanbeauty.com/"
+    },
+    "mockups": [
+      { "src": "assets/img/aera/aera-1.png", "alt": "Mockup del proyecto de Aera" },
+      { "src": "assets/img/aera/aera-2.png", "alt": "Mockup del proyecto de Aera" },
+      { "src": "assets/img/aera/aera-3.png", "alt": "Mockup del proyecto de Aera" },
+      { "src": "assets/img/aera/aera-4.png", "alt": "Mockup del proyecto de Aera" },
+      { "src": "assets/img/aera/aera-5.png", "alt": "Mockup del proyecto de Aera" }
+    ]
   },
   {
     "img": { 
-        "src" : "/assets/img/proyecto-anexa-luxury-cars.png",
-        "alt": "Página de Inicio de Anexa Luxury Cars",
-        "title": "Anexa Luxury Cars"
+      "src" : "/assets/img/proyecto-anexa-luxury-cars.png",
+      "alt": "Página de Inicio de Anexa Luxury Cars",
+      "title": "Anexa Luxury Cars"
     },
     "title": "Anexa Luxury Cars",
     "year": "2024",
@@ -58,16 +75,24 @@
     ],
     "features": [],
     "links": {
-        "github": "",
-        "figma": "",
-        "deploy": "https://anexaluxurycars.com/"
-    }
+      "github": "",
+      "figma": "",
+      "deploy": "https://anexaluxurycars.com/"
+    },
+    "mockups": [
+      { "src": "assets/img/anexa-luxury/anexa-1.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" },
+      { "src": "assets/img/anexa-luxury/anexa-2.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" },
+      { "src": "assets/img/anexa-luxury/anexa-3.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" },
+      { "src": "assets/img/anexa-luxury/anexa-4.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" },
+      { "src": "assets/img/anexa-luxury/anexa-5.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" },
+      { "src": "assets/img/anexa-luxury/anexa-6.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" }
+    ]
   },
   {
     "img": { 
-        "src" : "/assets/img/proyecto-grupo-salux.png",
-        "alt": "Página de Inicio de Grupo Salux",
-        "title": "Grupo Salux"
+      "src" : "/assets/img/proyecto-grupo-salux.png",
+      "alt": "Página de Inicio de Grupo Salux",
+      "title": "Grupo Salux"
     },
     "title": "Grupo Salux",
     "year": "2024",
@@ -77,16 +102,24 @@
     ],
     "features": [],
     "links": {
-        "github": "",
-        "figma": "",
-        "deploy": "https://dev.gruposalux.clinic/"
-    }
+      "github": "",
+      "figma": "",
+      "deploy": "https://dev.gruposalux.clinic/"
+    },
+    "mockups": [
+      { "src": "assets/img/grupo-salux/salux-1.png", "alt": "Mockup del proyecto de Grupo Salux" },
+      { "src": "assets/img/grupo-salux/salux-2.png", "alt": "Mockup del proyecto de Grupo Salux" },
+      { "src": "assets/img/grupo-salux/salux-3.png", "alt": "Mockup del proyecto de Grupo Salux" },
+      { "src": "assets/img/grupo-salux/salux-4.png", "alt": "Mockup del proyecto de Grupo Salux" },
+      { "src": "assets/img/grupo-salux/salux-5.png", "alt": "Mockup del proyecto de Grupo Salux" },
+      { "src": "assets/img/grupo-salux/salux-6.png", "alt": "Mockup del proyecto de Grupo Salux" }
+    ]
   },
   {
     "img": { 
-        "src" : "/assets/img/proyecto-portafolio.png",
-        "alt": "Página de Inicio de Mi Portafolio",
-        "title": "Mi Portafolio"
+      "src" : "/assets/img/proyecto-portafolio.png",
+      "alt": "Página de Inicio de Mi Portafolio",
+      "title": "Mi Portafolio"
     },
     "title": "Mi Portafolio",
     "year": "2024",
@@ -96,10 +129,17 @@
     ],
     "features": [],
     "links": {
-        "github": "https://github.com/LuisChicaizaDev/portafolio",
-        "figma": "https://www.figma.com/design/WeNnFeKRaNvDGLE61odkBL/Portfolio?node-id=0-1&t=adTj7TRP45FMykS5-1",
-        "deploy": ""
-    }
+      "github": "https://github.com/LuisChicaizaDev/portafolio",
+      "figma": "https://www.figma.com/design/WeNnFeKRaNvDGLE61odkBL/Portfolio?node-id=0-1&t=adTj7TRP45FMykS5-1",
+      "deploy": ""
+    },
+    "mockups": [
+      { "src": "assets/img/portafolio/portafolio-1.png", "alt": "Mockup del proyecto de mi Portafolio" },
+      { "src": "assets/img/portafolio/portafolio-2.png", "alt": "Mockup del proyecto de mi Portafolio" },
+      { "src": "assets/img/portafolio/portafolio-3.png", "alt": "Mockup del proyecto de mi Portafolio" },
+      { "src": "assets/img/portafolio/portafolio-4.png", "alt": "Mockup del proyecto de mi Portafolio" },
+      { "src": "assets/img/portafolio/portafolio-5.png", "alt": "Mockup del proyecto de mi Portafolio" }
+    ]
   }
   ],
 
