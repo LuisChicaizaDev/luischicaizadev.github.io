@@ -171,7 +171,7 @@ async function loadProjects() {
             throw new Error("Formato de JSON inválido en Proyectos Destacados");
         }
         
-        // console.log("Proyectos cargados:", featuredProjects[0].description);
+        //console.log("Proyectos cargados:", featuredProjects[0].links.figma ? 'Si hay enlace' : "no hay enlace");
         // Renderiza los proyectos
         renderFeaturedProjects(featuredProjects);
         renderOtherProjects(otherProjects);
@@ -226,13 +226,7 @@ function renderFeaturedProjects(projects) {
                         `
                         <a href="${project.links.figma}" target="_blank" 
                             class="projects__button btn-gray">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 41 41" fill="none">
-                                <g clip-path="url(#clip0_176_389)"><path d="M14.4944 40.8125C18.2131 40.8125 21.2131 37.8125 21.2131 34.0938V27.375H14.4944C10.7756 27.375 7.77563 30.375 7.77563 34.0938C7.77563 37.8125 10.7756 40.8125 14.4944 40.8125Z" fill="currentColor"></path>
-                                <path d="M7.77563 20.6562C7.77563 16.9375 10.7756 13.9375 14.4944 13.9375H21.2131V27.375H14.4944C10.7756 27.375 7.77563 24.375 7.77563 20.6562Z" fill="currentColor"></path>
-                                <path d="M7.77563 7.21875C7.77563 3.5 10.7756 0.5 14.4944 0.5H21.2131V13.9375H14.4944C10.7756 13.9375 7.77563 10.9375 7.77563 7.21875Z" fill="currentColor"></path>
-                                <path d="M21.2131 0.5H27.9319C31.6506 0.5 34.6506 3.5 34.6506 7.21875C34.6506 10.9375 31.6506 13.9375 27.9319 13.9375H21.2131V0.5Z" fill="currentColor"></path>
-                                <path d="M34.6506 20.6562C34.6506 24.375 31.6506 27.375 27.9319 27.375C24.2131 27.375 21.2131 24.375 21.2131 20.6562C21.2131 16.9375 24.2131 13.9375 27.9319 13.9375C31.6506 13.9375 34.6506 16.9375 34.6506 20.6562Z" fill="currentColor"></path>
-                                </g><defs><clipPath id="clip0_176_389"><rect width="40" height="40" fill="white" transform="translate(0.275635 0.5)"></rect></clipPath></defs>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 41 41" fill="none"> <g clip-path="url(#clip0_176_389)"><path d="M14.4944 40.8125C18.2131 40.8125 21.2131 37.8125 21.2131 34.0938V27.375H14.4944C10.7756 27.375 7.77563 30.375 7.77563 34.0938C7.77563 37.8125 10.7756 40.8125 14.4944 40.8125Z" fill="currentColor"></path><path d="M7.77563 20.6562C7.77563 16.9375 10.7756 13.9375 14.4944 13.9375H21.2131V27.375H14.4944C10.7756 27.375 7.77563 24.375 7.77563 20.6562Z" fill="currentColor"></path><path d="M7.77563 7.21875C7.77563 3.5 10.7756 0.5 14.4944 0.5H21.2131V13.9375H14.4944C10.7756 13.9375 7.77563 10.9375 7.77563 7.21875Z" fill="currentColor"></path><path d="M21.2131 0.5H27.9319C31.6506 0.5 34.6506 3.5 34.6506 7.21875C34.6506 10.9375 31.6506 13.9375 27.9319 13.9375H21.2131V0.5Z" fill="currentColor"></path><path d="M34.6506 20.6562C34.6506 24.375 31.6506 27.375 27.9319 27.375C24.2131 27.375 21.2131 24.375 21.2131 20.6562C21.2131 16.9375 24.2131 13.9375 27.9319 13.9375C31.6506 13.9375 34.6506 16.9375 34.6506 20.6562Z" fill="currentColor"></path></g><defs><clipPath id="clip0_176_389"><rect width="40" height="40" fill="white" transform="translate(0.275635 0.5)"></rect></clipPath></defs>
                             </svg>
                             Diseño
                         </a>
