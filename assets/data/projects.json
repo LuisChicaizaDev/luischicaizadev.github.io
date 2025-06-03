@@ -147,7 +147,9 @@
       "title": "Perfil Bento Tailwind",
       "year": "2025",
       "tags": ["Tailwind CSS", "HTML"],
-      "description": "Proyecto práctico del curso de MiduDev.",
+      "description": [
+        "Proyecto práctico basado en el curso <strong>Tailwind CSS 4</strong> de MiduDev, enfocado en el uso de <strong><code>utility classes</code></strong>, <strong>diseño responsive</strong> y la creación de una <strong>Bento Grid</strong> personalizada."
+      ],
       "links": {
         "github": "https://github.com/LuisChicaizaDev/perfil-bento-tailwind",
         "deploy": "https://perfil-bento-tailwind.netlify.app/"
@@ -156,8 +158,11 @@
     {
       "title": "App Tareas React",
       "year": "2025",
-      "tags": ["CSS", "React"],
-      "description": "Se desarrolló una aplicación para gestionar tareas personales con persistencia de datos.",
+      "tags": ["React", "CSS"],
+      "description": [
+        "Proyecto realizado como parte de un curso de React de freeCodeCamp, con mejoras personales como <strong>persistencia de datos en <code>localStorage</code></strong> y <strong>contadores dinámicos</strong>.",
+        "Aplicación para gestionar tareas, con <strong>componentes reutilizables</strong> y <strong>manejo de estado con <code>useState</code></strong>."
+      ],
       "links": {
         "github": "https://github.com/LuisChicaizaDev/app-tareas-react",
         "deploy": "https://app-tareas-react-sage.vercel.app/"
@@ -166,8 +171,11 @@
     {
       "title": "Festival de Música",
       "year": "2024",
-      "tags": ["HTML", "CSS", "Sass", "JavaScript"],
-      "description": "Creé una página para un festival de música ficticio como proyecto de práctica para aprender y aplicar Sass. Este fue mi primer contacto con Sass, me enfoqué en desarrollar una estructura visual atractiva con HTML y CSS, y añadir dinamismo con JavaScript. Aunque la información es inventada, el proyecto fue clave para familiarizarme con un preprocesador CSS.",
+      "tags": ["HTML", "Sass", "JavaScript"],
+      "description": [
+        "Pagina desarrollada como práctica inicial con <code>Sass</code>, donde apliqué <strong>variables</strong> y <strong>mixins</strong>. El proyecto fue clave para familiarizarme con un preprocesador <code>CSS</code>.",
+        "También incorporé <strong>interactividad</strong> con <code>JavaScript</code> para mejorar la experiencia del usuario."
+      ],
       "links": {
         "github": "https://github.com/LuisChicaizaDev/festival-musica",
         "deploy": "https://v-festival-musica.netlify.app/"
@@ -177,7 +185,11 @@
       "title": "Blog de Café",
       "year": "2023",
       "tags": ["HTML", "CSS", "Grid", "Flexbox"],
-      "description": "Creé un blog ficticio sobre café para mejorar y fortalecer mis conocimientos en el diseño responsivo utilizando CSS Grid y Flexbox. El proyecto incluye una página de cursos y una de contacto, con información inventada y de poca relevancia. El objetivo principal fue practicar y dominar estas técnicas de layout en CSS, fortaleciendo mis habilidades en diseño web adaptable.",
+      "description": [
+        "Blog ficticio creado para practicar <strong>diseño responsivo</strong> con <code>CSS Grid</code> y <code>Flexbox</code>.",
+        "El proyecto incluye una estructura multi-página que me permitió fortalecer mis habilidades  <strong>técnicas de maquetación y diseño web adaptable</strong>."
+      ],  
+
       "links": {
         "github": "https://github.com/LuisChicaizaDev/blog-cafe",
         "deploy": "https://v1-demo-blog-cafe.netlify.app/"
@@ -187,7 +199,11 @@
       "title": "Museo al Aire Libre",
       "year": "2023",
       "tags": ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
-      "description": "Este fue mi primer proyecto grupal realizado durante el curso de Desarrollo de Aplicaciones Web, donde destacamos las esculturas de la ciudad de Oviedo, España. Aplicamos la metodología ágil Scrum. Nos encargamos de todo el proceso, desde la toma y edición de fotografías hasta la creación completa del sitio web, marcando mi primer contacto con el mundo de la programación.",
+      "description": [
+        "Primer proyecto grupal durante mi formación, enfocado en la creación de un sitio sobre esculturas urbanas en Oviedo.",
+        "Participé en todo el proceso, desde la toma de fotografías hasta la implementación con <code>HTML</code>, <code>CSS</code>, <code>Bootstrap</code> y <code>jQuery</code>, aplicando <strong>Scrum</strong> como metodología ágil."
+      ],
+
       "links": {
         "github": "",
         "deploy": "http://oviedomuseoairelibre.com/"

@@ -287,7 +287,7 @@ function renderOtherProjects(projects) {
             </div>
 
             <div class="project__description">
-                <p> ${project.description   } </p>
+                ${project.description.map (d => `<p> ${d} </p>`).join('')} 
             </div>
 
             <div class="projects__buttons d-flex gap-4 mt-4">
