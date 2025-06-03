@@ -8,10 +8,10 @@
       },
       "title": "Boxeo Project",
       "year": "2025",
-      "tags": ["HTML & Sass", "JavaScript", "PHP", "MySQL", "Fullstack"],
+      "tags": ["HTML & Sass", "JavaScript", "PHP", "MySQL"],
       "description": [
-        "Plataforma web para gestionar eventos de boxeo, con registro de usuarios, administración de veladas y control de boxeadores.",
-        "Desarrollado como proyecto final de curso, implementa autenticación, validaciones fullstack y operaciones CRUD con PHP y MySQL."
+        "Plataforma web para <strong>gestionar eventos de boxeo</strong>, con <strong>registro de usuarios</strong>, administración de veladas y control de boxeadores.",
+        "Desarrollado como <strong>proyecto final de curso</strong>, implementa <strong>autenticación</strong>, <strong>validaciones fullstack</strong> y operaciones <strong>CRUD</strong> con <code>PHP</code> y <code>MySQL</code>."
       ],
       "features": [],
       "links": {
@@ -40,8 +40,8 @@
       "year": "2024 | Actualizado 2025",
       "tags": ["HTML & Sass", "JavaScript", "Figma"],
       "description": [
-        "Sitio web multi-página en producción para un estudio de cosmética coreana, diseñado desde Figma y desarrollado desde cero con HTML, Sass y JavaScript.",
-        "Enfocado en visibilidad de marca, presentación clara de servicios y diseño responsivo."
+        "Sitio web <strong>multi-página en producción</strong> para un estudio de cosmética coreana, diseñado desde <code>Figma</code> y desarrollado desde cero con <code>HTML</code>, <code>Sass</code> y <code>JavaScript</code>.",
+        "Enfocado en v<strong>visibilidad de marca</strong>, presentación clara de servicios y <strong>diseño responsivo</strong>."
       ],
       "features": [],
       "links": {
@@ -67,8 +67,8 @@
       "year": "2024",
       "tags": ["WordPress", "CSS", "JavaScript", "PHP"],
       "description": [
-        "Desarrollo de un sitio WordPress para una empresa de compraventa de vehículos, realizado como parte de mi trabajo actual.",
-        "Se personalizó la plantilla de WordPress adaptando estilos, estructura y funcionalidades mediante CSS, JavaScript y PHP."
+        "Desarrollo de un sitio WordPress para una empresa de <strong>compraventa de vehículos</strong>, realizado como parte de mi trabajo actual.",
+        "Se <strong>personalizó la plantilla</strong> de WordPress adaptando estilos, estructura y funcionalidades mediante <code>CSS</code>, <code>JavaScript</code> y <code>PHP</code>."
       ],
       "features": [],
       "links": {
@@ -95,7 +95,7 @@
       "year": "2024",
       "tags": ["WordPress", "HTML & CSS", "JavaScript"],
       "description": [
-        "Desarrollo de un sitio WordPress para una red de clínicas especializadas en accidentes de tráfico, con páginas dedicadas para cada centro.",
+        "Desarrollo de un sitio WordPress para una <strong>red de clínicas</strong>, con páginas dedicadas para cada centro. Se añadieron funcionalidades con <code>HTML</code>, <code>CSS</code> y <code>JavaScript</code>.",
         "El proyecto está completado y desplegado en un entorno dev, pendiente de aprobación final por parte del cliente."
       ],
       "features": [],
@@ -123,8 +123,8 @@
       "year": "2024",
       "tags": ["HTML & Sass", "Bootstrap", "JavaScript", "Figma"],
       "description": [
-        "Portafolio web personal diseñado desde Figma y desarrollado con HTML, Sass, JavaScript y Bootstrap.",
-        "Implementa la carga dinámica de proyectos mediante <code>fetch</code> y el consumo de datos desde JSON. Refleja mi estilo, enfoque técnico y evolución como desarrollador."
+        "Portafolio web personal diseñado desde <code>Figma</code> y desarrollado con <code>HTML</code>, <code>Sass</code>, <code>JavaScript</code> y <code>Bootstrap</code>.",
+        "Implementa la <strong>carga dinámica de proyectos</strong> mediante <code>fetch</code> y el consumo de datos desde <code>JSON</code>. Refleja <strong>estilo</strong>, <strong>enfoque técnico</strong> y <strong>evolución como desarrollador</strong>."
       ],
       "features": [],
       "links": {
