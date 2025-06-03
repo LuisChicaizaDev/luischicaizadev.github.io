@@ -1,146 +1,145 @@
 {
   "featured_projects": [
     {
-    "img": { 
-      "src" : "/assets/img/proyecto-boxeo-project.webp",
-      "alt": "Página de Inicio de Boxeo Project",
-      "title": "Boxeo Project"
+      "img": { 
+        "src" : "/assets/img/proyecto-boxeo-project.webp",
+        "alt": "Página de Inicio de Boxeo Project",
+        "title": "Boxeo Project"
+      },
+      "title": "Boxeo Project",
+      "year": "2025",
+      "tags": ["HTML & Sass", "JavaScript", "PHP", "MySQL", "Fullstack"],
+      "description": [
+        "Plataforma web para gestionar eventos de boxeo, con registro de usuarios, administración de veladas y control de boxeadores.",
+        "Desarrollado como proyecto final de curso, implementa autenticación, validaciones fullstack y operaciones CRUD con PHP y MySQL."
+      ],
+      "features": [],
+      "links": {
+        "github": "https://github.com/LuisChicaizaDev/proyecto-daw",
+        "deploy": "https://boxeoproject.free.nf/",
+        "figma": ""
+      },
+      "mockups": [
+        { "src": "assets/img/boxeo-project/boxeo-1.webp", "alt": "Mockup del proyecto de Boxeo Project" },
+        { "src": "assets/img/boxeo-project/boxeo-2.webp", "alt": "Mockup del proyecto de Boxeo Project" },
+        { "src": "assets/img/boxeo-project/boxeo-3.webp", "alt": "Mockup del proyecto de Boxeo Project" },
+        { "src": "assets/img/boxeo-project/boxeo-4.webp", "alt": "Mockup del proyecto de Boxeo Project" },
+        { "src": "assets/img/boxeo-project/boxeo-5.webp", "alt": "Mockup del proyecto de Boxeo Project" },
+        { "src": "assets/img/boxeo-project/boxeo-6.webp", "alt": "Mockup del proyecto de Boxeo Project" },
+        { "src": "assets/img/boxeo-project/boxeo-7.webp", "alt": "Mockup del proyecto de Boxeo Project" },
+        { "src": "assets/img/boxeo-project/boxeo-8.webp", "alt": "Mockup del proyecto de Boxeo Project" }
+      ]
     },
-    "title": "Boxeo Project",
-    "year": "2025",
-    "tags": ["HTML", "CSS", "Sass", "JavaScript", "PHP", "MySQL"],
-    "description": [
-      "Proyecto desarrollado como Trabajo de Fin de Curso en el Grado Superior de Desarrollo de Aplicaciones Web.",
-      "Sitio web para la publicación y gestión de veladas de boxeo. Permite a los organizadores registrarse, administrar sus veladas y gestionar a los boxeadores de manera sencilla y rápida."
-    ],
-    "features": [
-      "CRUD para la gestión de usuarios, veladas y boxeadores",
-      "Sistema de autenticación",
-      "Recuperación de contraseña",
-      "Validaciones frontend y backend"
-    ],
-    "links": {
-      "github": "https://github.com/LuisChicaizaDev/proyecto-daw",
-      "deploy": "https://boxeoproject.free.nf/",
-      "figma": ""
+    {
+      "img": { 
+        "src" : "/assets/img/proyecto-aera.webp",
+        "alt": "Página de Inicio de Aera Korean Beauty",
+        "title": "Aera Korean Beauty"
+      },
+      "title": "Aera Korean Beauty",
+      "year": "2024 | Actualizado 2025",
+      "tags": ["HTML & Sass", "JavaScript", "Figma"],
+      "description": [
+        "Sitio web multi-página en producción para un estudio de cosmética coreana, diseñado desde Figma y desarrollado desde cero con HTML, Sass y JavaScript.",
+        "Enfocado en visibilidad de marca, presentación clara de servicios y diseño responsivo."
+      ],
+      "features": [],
+      "links": {
+        "github": "",
+        "figma": "https://www.figma.com/design/84O4uO0UtmZ2DAZ1h36cXN/AERA?node-id=0-1&t=topGIvKZISVBDgKF-1",
+        "deploy": "https://aerakoreanbeauty.com/"
+      },
+      "mockups": [
+        { "src": "assets/img/aera/aera-1.png", "alt": "Mockup del proyecto de Aera" },
+        { "src": "assets/img/aera/aera-2.png", "alt": "Mockup del proyecto de Aera" },
+        { "src": "assets/img/aera/aera-3.png", "alt": "Mockup del proyecto de Aera" },
+        { "src": "assets/img/aera/aera-4.png", "alt": "Mockup del proyecto de Aera" },
+        { "src": "assets/img/aera/aera-5.png", "alt": "Mockup del proyecto de Aera" }
+      ]
     },
-    "mockups": [
-      { "src": "assets/img/boxeo-project/boxeo-1.webp", "alt": "Mockup del proyecto de Boxeo Project" },
-      { "src": "assets/img/boxeo-project/boxeo-2.webp", "alt": "Mockup del proyecto de Boxeo Project" },
-      { "src": "assets/img/boxeo-project/boxeo-3.webp", "alt": "Mockup del proyecto de Boxeo Project" },
-      { "src": "assets/img/boxeo-project/boxeo-4.webp", "alt": "Mockup del proyecto de Boxeo Project" },
-      { "src": "assets/img/boxeo-project/boxeo-5.webp", "alt": "Mockup del proyecto de Boxeo Project" },
-      { "src": "assets/img/boxeo-project/boxeo-6.webp", "alt": "Mockup del proyecto de Boxeo Project" },
-      { "src": "assets/img/boxeo-project/boxeo-7.webp", "alt": "Mockup del proyecto de Boxeo Project" },
-      { "src": "assets/img/boxeo-project/boxeo-8.webp", "alt": "Mockup del proyecto de Boxeo Project" }
-    ]
-  },
-  {
-    "img": { 
-      "src" : "/assets/img/proyecto-aera.webp",
-      "alt": "Página de Inicio de Aera Korean Beauty",
-      "title": "Aera Korean Beauty"
+    {
+      "img": { 
+        "src" : "/assets/img/proyecto-anexa-luxury-cars.png",
+        "alt": "Página de Inicio de Anexa Luxury Cars",
+        "title": "Anexa Luxury Cars"
+      },
+      "title": "Anexa Luxury Cars",
+      "year": "2024",
+      "tags": ["WordPress", "CSS", "JavaScript", "PHP"],
+      "description": [
+        "Desarrollo de un sitio WordPress para una empresa de compraventa de vehículos, realizado como parte de mi trabajo actual.",
+        "Se personalizó la plantilla de WordPress adaptando estilos, estructura y funcionalidades mediante CSS, JavaScript y PHP."
+      ],
+      "features": [],
+      "links": {
+        "github": "",
+        "figma": "",
+        "deploy": "https://anexaluxurycars.com/"
+      },
+      "mockups": [
+        { "src": "assets/img/anexa-luxury/anexa-1.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" },
+        { "src": "assets/img/anexa-luxury/anexa-2.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" },
+        { "src": "assets/img/anexa-luxury/anexa-3.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" },
+        { "src": "assets/img/anexa-luxury/anexa-4.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" },
+        { "src": "assets/img/anexa-luxury/anexa-5.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" },
+        { "src": "assets/img/anexa-luxury/anexa-6.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" }
+      ]
     },
-    "title": "Aera Korean Beauty",
-    "year": "2024 | Actualizado 2025",
-    "tags": ["HTML", "CSS", "Sass", "JavaScript", "Figma"],
-    "description": [
-      "Diseñé y desarrollé un sitio web completo para un estudio de cosmética coreana, con el objetivo de aumentar su visibilidad en línea y destacar todos los servicios que ofrece. El sitio web consta de 7 páginas que detallan cada servicio del estudio, además de incluir las páginas legales correspondientes."
-    ],
-    "features": [],
-    "links": {
-      "github": "",
-      "figma": "https://www.figma.com/design/84O4uO0UtmZ2DAZ1h36cXN/AERA?node-id=0-1&t=topGIvKZISVBDgKF-1",
-      "deploy": "https://aerakoreanbeauty.com/"
+    {
+      "img": { 
+        "src" : "/assets/img/proyecto-grupo-salux.png",
+        "alt": "Página de Inicio de Grupo Salux",
+        "title": "Grupo Salux"
+      },
+      "title": "Grupo Salux",
+      "year": "2024",
+      "tags": ["WordPress", "HTML & CSS", "JavaScript"],
+      "description": [
+        "Desarrollo de un sitio WordPress para una red de clínicas especializadas en accidentes de tráfico, con páginas dedicadas para cada centro.",
+        "El proyecto está completado y desplegado en un entorno dev, pendiente de aprobación final por parte del cliente."
+      ],
+      "features": [],
+      "links": {
+        "github": "",
+        "figma": "",
+        "deploy": "https://dev.gruposalux.clinic/"
+      },
+      "mockups": [
+        { "src": "assets/img/grupo-salux/salux-1.png", "alt": "Mockup del proyecto de Grupo Salux" },
+        { "src": "assets/img/grupo-salux/salux-2.png", "alt": "Mockup del proyecto de Grupo Salux" },
+        { "src": "assets/img/grupo-salux/salux-3.png", "alt": "Mockup del proyecto de Grupo Salux" },
+        { "src": "assets/img/grupo-salux/salux-4.png", "alt": "Mockup del proyecto de Grupo Salux" },
+        { "src": "assets/img/grupo-salux/salux-5.png", "alt": "Mockup del proyecto de Grupo Salux" },
+        { "src": "assets/img/grupo-salux/salux-6.png", "alt": "Mockup del proyecto de Grupo Salux" }
+      ]
     },
-    "mockups": [
-      { "src": "assets/img/aera/aera-1.png", "alt": "Mockup del proyecto de Aera" },
-      { "src": "assets/img/aera/aera-2.png", "alt": "Mockup del proyecto de Aera" },
-      { "src": "assets/img/aera/aera-3.png", "alt": "Mockup del proyecto de Aera" },
-      { "src": "assets/img/aera/aera-4.png", "alt": "Mockup del proyecto de Aera" },
-      { "src": "assets/img/aera/aera-5.png", "alt": "Mockup del proyecto de Aera" }
-    ]
-  },
-  {
-    "img": { 
-      "src" : "/assets/img/proyecto-anexa-luxury-cars.png",
-      "alt": "Página de Inicio de Anexa Luxury Cars",
-      "title": "Anexa Luxury Cars"
-    },
-    "title": "Anexa Luxury Cars",
-    "year": "2024",
-    "tags": ["WordPress", "HTML", "CSS", "PHP"],
-    "description": [
-      "Construí el sitio web en WordPress, para una empresa dedicada a la compra y venta de coches. El sitio permite a los usuarios explorar el catálogo de vehículos y contactar fácilmente a través de formularios o WhatsApp para consultas y ventas personalizadas. Está en producción pero el desarrollo continúa con nuevas características en implementación."
-    ],
-    "features": [],
-    "links": {
-      "github": "",
-      "figma": "",
-      "deploy": "https://anexaluxurycars.com/"
-    },
-    "mockups": [
-      { "src": "assets/img/anexa-luxury/anexa-1.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" },
-      { "src": "assets/img/anexa-luxury/anexa-2.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" },
-      { "src": "assets/img/anexa-luxury/anexa-3.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" },
-      { "src": "assets/img/anexa-luxury/anexa-4.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" },
-      { "src": "assets/img/anexa-luxury/anexa-5.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" },
-      { "src": "assets/img/anexa-luxury/anexa-6.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" }
-    ]
-  },
-  {
-    "img": { 
-      "src" : "/assets/img/proyecto-grupo-salux.png",
-      "alt": "Página de Inicio de Grupo Salux",
-      "title": "Grupo Salux"
-    },
-    "title": "Grupo Salux",
-    "year": "2024",
-    "tags": ["WordPress", "HTML", "CSS", "JavaScript"],
-    "description": [
-      "Desarrollé el sitio web en WordPress para una red de clínicas especializadas en accidentes de tráfico, ubicadas en varias ciudades del sur de España. El objetivo del sitio fue mejorar la visibilidad de las clínicas en línea y facilitar el acceso de los pacientes a los servicios ofrecidos en cada ubicación. Actualmente, el sitio web está pendiente de la aprobación final."
-    ],
-    "features": [],
-    "links": {
-      "github": "",
-      "figma": "",
-      "deploy": "https://dev.gruposalux.clinic/"
-    },
-    "mockups": [
-      { "src": "assets/img/grupo-salux/salux-1.png", "alt": "Mockup del proyecto de Grupo Salux" },
-      { "src": "assets/img/grupo-salux/salux-2.png", "alt": "Mockup del proyecto de Grupo Salux" },
-      { "src": "assets/img/grupo-salux/salux-3.png", "alt": "Mockup del proyecto de Grupo Salux" },
-      { "src": "assets/img/grupo-salux/salux-4.png", "alt": "Mockup del proyecto de Grupo Salux" },
-      { "src": "assets/img/grupo-salux/salux-5.png", "alt": "Mockup del proyecto de Grupo Salux" },
-      { "src": "assets/img/grupo-salux/salux-6.png", "alt": "Mockup del proyecto de Grupo Salux" }
-    ]
-  },
-  {
-    "img": { 
-      "src" : "/assets/img/proyecto-portafolio.png",
-      "alt": "Página de Inicio de Mi Portafolio",
-      "title": "Mi Portafolio"
-    },
-    "title": "Mi Portafolio",
-    "year": "2024",
-    "tags": ["HTML", "CSS","Sass", "Bootstrap", "JavaScript", "Figma"],
-    "description": [
-      "Diseñé y desarrollé mi propio portafolio web para mostrar mis habilidades y proyectos como desarrollador. Utilicé HTML5, CSS3, JavaScript, y diversas herramientas como Bootstrap y Figma para crear una experiencia de usuario atractiva y funcional. El sitio está alojado en GitHub Pages y es un reflejo de mi estilo y capacidad técnica."
-    ],
-    "features": [],
-    "links": {
-      "github": "https://github.com/LuisChicaizaDev/portafolio",
-      "figma": "https://www.figma.com/design/WeNnFeKRaNvDGLE61odkBL/Portfolio?node-id=0-1&t=adTj7TRP45FMykS5-1",
-      "deploy": ""
-    },
-    "mockups": [
-      { "src": "assets/img/portafolio/portafolio-1.png", "alt": "Mockup del proyecto de mi Portafolio" },
-      { "src": "assets/img/portafolio/portafolio-2.png", "alt": "Mockup del proyecto de mi Portafolio" },
-      { "src": "assets/img/portafolio/portafolio-3.png", "alt": "Mockup del proyecto de mi Portafolio" },
-      { "src": "assets/img/portafolio/portafolio-4.png", "alt": "Mockup del proyecto de mi Portafolio" },
-      { "src": "assets/img/portafolio/portafolio-5.png", "alt": "Mockup del proyecto de mi Portafolio" }
-    ]
-  }
+    {
+      "img": { 
+        "src" : "/assets/img/proyecto-portafolio.png",
+        "alt": "Página de Inicio de Mi Portafolio",
+        "title": "Mi Portafolio"
+      },
+      "title": "Mi Portafolio",
+      "year": "2024",
+      "tags": ["HTML & Sass", "Bootstrap", "JavaScript", "Figma"],
+      "description": [
+        "Portafolio web personal diseñado desde Figma y desarrollado con HTML, Sass, JavaScript y Bootstrap.",
+        "Implementa la carga dinámica de proyectos mediante <code>fetch</code> y el consumo de datos desde JSON. Refleja mi estilo, enfoque técnico y evolución como desarrollador."
+      ],
+      "features": [],
+      "links": {
+        "github": "https://github.com/LuisChicaizaDev/portafolio",
+        "figma": "https://www.figma.com/design/WeNnFeKRaNvDGLE61odkBL/Portfolio?node-id=0-1&t=adTj7TRP45FMykS5-1",
+        "deploy": ""
+      },
+      "mockups": [
+        { "src": "assets/img/portafolio/portafolio-1.png", "alt": "Mockup del proyecto de mi Portafolio" },
+        { "src": "assets/img/portafolio/portafolio-2.png", "alt": "Mockup del proyecto de mi Portafolio" },
+        { "src": "assets/img/portafolio/portafolio-3.png", "alt": "Mockup del proyecto de mi Portafolio" },
+        { "src": "assets/img/portafolio/portafolio-4.png", "alt": "Mockup del proyecto de mi Portafolio" },
+        { "src": "assets/img/portafolio/portafolio-5.png", "alt": "Mockup del proyecto de mi Portafolio" }
+      ]
+    }
   ],
 
   "other_projects": [
