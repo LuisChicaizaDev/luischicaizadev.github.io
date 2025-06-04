@@ -61,7 +61,7 @@
     },
     {
       "img": { 
-        "src" : "/assets/img/proyecto-anexa-luxury-cars.png",
+        "src" : "/assets/img/proyecto-anexa-luxury-cars.webp",
         "alt": "Página de Inicio de Anexa Luxury Cars",
         "title": "Anexa Luxury Cars"
       },
@@ -90,7 +90,7 @@
     },
     {
       "img": { 
-        "src" : "/assets/img/proyecto-grupo-salux.png",
+        "src" : "/assets/img/proyecto-grupo-salux.webp",
         "alt": "Página de Inicio de Grupo Salux",
         "title": "Grupo Salux"
       },
