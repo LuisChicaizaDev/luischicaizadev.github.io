@@ -15,9 +15,10 @@
       ],
       "features": [],
       "links": {
+        "figma": "",
         "github": "https://github.com/LuisChicaizaDev/proyecto-daw",
-        "deploy": "https://boxeoproject.free.nf/",
-        "figma": ""
+        "website": "",
+        "demo": "https://boxeoproject.free.nf/"
       },
       "mockups": [
         { "src": "assets/img/boxeo-project/boxeo-1.webp", "alt": "Mockup del proyecto de Boxeo Project" },
@@ -45,9 +46,10 @@
       ],
       "features": [],
       "links": {
-        "github": "",
         "figma": "https://www.figma.com/design/84O4uO0UtmZ2DAZ1h36cXN/AERA?node-id=0-1&t=topGIvKZISVBDgKF-1",
-        "deploy": "https://aerakoreanbeauty.com/"
+        "github": "",
+        "website": "https://aerakoreanbeauty.com/",
+        "demo": ""
       },
       "mockups": [
         { "src": "assets/img/aera/aera-1.png", "alt": "Mockup del proyecto de Aera" },
@@ -72,9 +74,10 @@
       ],
       "features": [],
       "links": {
-        "github": "",
         "figma": "",
-        "deploy": "https://anexaluxurycars.com/"
+        "github": "",
+        "website": "https://anexaluxurycars.com/",
+        "demo": ""
       },
       "mockups": [
         { "src": "assets/img/anexa-luxury/anexa-1.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" },
@@ -100,9 +103,10 @@
       ],
       "features": [],
       "links": {
-        "github": "",
         "figma": "",
-        "deploy": "https://dev.gruposalux.clinic/"
+        "github": "",
+        "website": "https://dev.gruposalux.clinic/",
+        "demo": ""
       },
       "mockups": [
         { "src": "assets/img/grupo-salux/salux-1.png", "alt": "Mockup del proyecto de Grupo Salux" },
@@ -128,9 +132,10 @@
       ],
       "features": [],
       "links": {
-        "github": "https://github.com/LuisChicaizaDev/portafolio",
         "figma": "https://www.figma.com/design/WeNnFeKRaNvDGLE61odkBL/Portfolio?node-id=0-1&t=adTj7TRP45FMykS5-1",
-        "deploy": ""
+        "github": "https://github.com/LuisChicaizaDev/portafolio",
+        "website": "",
+        "demo": ""
       },
       "mockups": [
         { "src": "assets/img/portafolio/portafolio-1.png", "alt": "Mockup del proyecto de mi Portafolio" },
@@ -152,7 +157,7 @@
       ],
       "links": {
         "github": "https://github.com/LuisChicaizaDev/perfil-bento-tailwind",
-        "deploy": "https://perfil-bento-tailwind.netlify.app/"
+        "demo": "https://perfil-bento-tailwind.netlify.app/"
       }
     },
     {
@@ -165,7 +170,7 @@
       ],
       "links": {
         "github": "https://github.com/LuisChicaizaDev/app-tareas-react",
-        "deploy": "https://app-tareas-react-sage.vercel.app/"
+        "demo": "https://app-tareas-react-sage.vercel.app/"
       }
     },
     {
@@ -178,7 +183,7 @@
       ],
       "links": {
         "github": "https://github.com/LuisChicaizaDev/festival-musica",
-        "deploy": "https://v-festival-musica.netlify.app/"
+        "demo": "https://v-festival-musica.netlify.app/"
       }
     },
     {
@@ -192,7 +197,7 @@
 
       "links": {
         "github": "https://github.com/LuisChicaizaDev/blog-cafe",
-        "deploy": "https://v1-demo-blog-cafe.netlify.app/"
+        "demo": "https://v1-demo-blog-cafe.netlify.app/"
       }
     },
     {
@@ -206,7 +211,7 @@
 
       "links": {
         "github": "",
-        "deploy": "http://oviedomuseoairelibre.com/"
+        "demo": "http://oviedomuseoairelibre.com/"
       }
     }
   ]
