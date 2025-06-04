@@ -190,7 +190,7 @@ function renderFeaturedProjects(projects) {
         <div class="projects__content">
 
             <!--Imagen-->
-            <div class="projects__column projects__column--image wow fadeIn" data-wow-duration="2.25s" data-wow-delay="0.5s" data-index="${index + 1}">
+            <div class="projects__column projects__column--image wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-index="${index + 1}">
                 <div class="project-icon-box">
                     <div class="icon-inner">
                         <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-eye">
@@ -286,7 +286,7 @@ function renderOtherProjects(projects) {
     const container = document.querySelector('.other-projects__content'); 
 
     container.innerHTML = projects.map( project =>`
-        <div class="project mb-5">
+        <div class="project mb-5 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s">
             <div class="project__name">
                 <h4>${project.title}</h4>
             </div>
