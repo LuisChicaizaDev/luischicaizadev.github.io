@@ -217,7 +217,7 @@ function renderFeaturedProjects(projects) {
                 ${project.description.map ( d => `<p class="projects__description"> ${d} </p>`).join('')} 
                 
                 ${project.features.length
-                ? `<details><summary>Funcionalidades principales</summary>
+                ? `<details><summary>Características</summary>
                     <ul>${project.features.map(f => `<li>${f}</li>`).join('')}</ul>
                     </details>`
                 : ''}
