@@ -114,6 +114,9 @@
     .icons__link{
         padding: .8rem;
     }
+}
+
+.intro__buttons--movil {
 
     .intro__button{
         display: flex;
@@ -121,7 +124,12 @@
         @include m.tablet{
             display: none !important;
         }
+
+        svg {
+            width: 2rem;
+        }
     }
+    
 }
 
 .my-tooltip {
