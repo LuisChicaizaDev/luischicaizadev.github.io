@@ -71,13 +71,6 @@
         font-size: clamp(2.6rem, 1rem + 2.4vw, 3.6rem);
     }
 
-    .intro__button{
-        display: none;
-        @include m.tablet{
-            display: inline-flex;
-        }
-    }
-
     .icon-tabler-code{
         color: v.$dark-khaki;
         width: 5.2rem;
@@ -87,6 +80,22 @@
     }
     
 }
+
+.intro__buttons {
+
+    .intro__button{
+        display: none;
+        @include m.tablet{
+            display: inline-flex;
+            flex: auto;
+        }
+
+        svg {
+            width: 2rem;
+        }
+    }
+}
+
 .intro__avatar{
     display: flex;
     flex-direction: column;
