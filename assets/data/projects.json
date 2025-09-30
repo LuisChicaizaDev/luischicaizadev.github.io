@@ -2,6 +2,30 @@
   "featured_projects": [
     {
       "img": { 
+        "src" : "/assets/img/proyecto-frontend-mentor.webp",
+        "alt": "Página de Desafíos Frontend Mentor",
+        "title": "Desafíos Frontend Mentor"
+      },
+      "title": "Desafíos Frontend Mentor",
+      "year": "2025",
+      "tags": ["React","Tailwind CSS"],
+      "description": [
+        "Proyecto desarrollado para mostrar una recopilación de desafíos de <strong>Frontend Mentor</strong>, realizado con <code>React</code> y <code>Tailwind CSS</code> como parte de mi proceso de aprendizaje en un <strong>stack moderno</strong>. Incluye modo <strong>light/dark</strong> implementado con <code>useState</code>, <code>useEffect</code> y persistencia en <code>localStorage</code>."      ],
+      "features": [],
+      "links": {
+        "figma": "",
+        "github": "https://github.com/LuisChicaizaDev/challenges-frontend-mentor",
+        "website": "",
+        "demo": "https://frontend-mentor-luis.vercel.app/"
+      },
+      "mockups": [
+        { "src": "assets/img/frontend-mentor/frontend-mentor-1.webp", "alt": "Mockup del proyecto de frontend-mentor" },
+        { "src": "assets/img/frontend-mentor/frontend-mentor-2.webp", "alt": "Mockup del proyecto de frontend-mentor" },
+        { "src": "assets/img/frontend-mentor/frontend-mentor-3.webp", "alt": "Mockup del proyecto de frontend-mentor" },
+        { "src": "assets/img/frontend-mentor/frontend-mentor-4.webp", "alt": "Mockup del proyecto de frontend-mentor" }      ]
+    },
+    {
+      "img": { 
         "src" : "/assets/img/proyecto-boxeo-project.webp",
         "alt": "Página de Inicio de Boxeo Project",
         "title": "Boxeo Project"
@@ -113,35 +137,6 @@
         { "src": "assets/img/anexa-luxury/anexa-4.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" },
         { "src": "assets/img/anexa-luxury/anexa-5.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" },
         { "src": "assets/img/anexa-luxury/anexa-6.png", "alt": "Mockup del proyecto de Anexa Luxury Cars" }
-      ]
-    },
-    {
-      "img": { 
-        "src" : "/assets/img/proyecto-grupo-salux.webp",
-        "alt": "Página de Inicio de Grupo Salux",
-        "title": "Grupo Salux"
-      },
-      "title": "Grupo Salux",
-      "year": "2024",
-      "tags": ["WordPress", "HTML & CSS", "JavaScript"],
-      "description": [
-        "Desarrollo de un sitio WordPress para una <strong>red de clínicas</strong>, con páginas dedicadas para cada centro. Se añadieron funcionalidades con <code>HTML</code>, <code>CSS</code> y <code>JavaScript</code>.",
-        "El proyecto está completado y desplegado en un entorno dev, pendiente de aprobación final por parte del cliente."
-      ],
-      "features": [],
-      "links": {
-        "figma": "",
-        "github": "",
-        "website": "https://dev.gruposalux.clinic/",
-        "demo": ""
-      },
-      "mockups": [
-        { "src": "assets/img/grupo-salux/salux-1.png", "alt": "Mockup del proyecto de Grupo Salux" },
-        { "src": "assets/img/grupo-salux/salux-2.png", "alt": "Mockup del proyecto de Grupo Salux" },
-        { "src": "assets/img/grupo-salux/salux-3.png", "alt": "Mockup del proyecto de Grupo Salux" },
-        { "src": "assets/img/grupo-salux/salux-4.png", "alt": "Mockup del proyecto de Grupo Salux" },
-        { "src": "assets/img/grupo-salux/salux-5.png", "alt": "Mockup del proyecto de Grupo Salux" },
-        { "src": "assets/img/grupo-salux/salux-6.png", "alt": "Mockup del proyecto de Grupo Salux" }
       ]
     },
     {
