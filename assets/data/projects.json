@@ -56,33 +56,6 @@
       ]
     },
     {
-      "img": {
-        "src": "/assets/img/proyecto-aera-links.webp",
-        "alt": "Página de Enlaces de Aera Korean Beauty",
-        "title": "Aera – Página de Enlaces"
-      },
-      "title": "Aera – Página de Enlaces",
-      "year": "2025",
-      "tags": ["HTML & Sass", "JavaScript", "Figma"],
-      "description": [
-        "Página de enlaces rápidos desarrollada para <strong>Aera</strong>, que centraliza enlaces clave para su negocio.",
-        "Diseño minimalista alineado a la identidad de la marca. El <strong>mapa de Google Maps</strong> se carga de forma diferida mediante  <code>JavaScript</code> para optimizar el rendimiento."
-      ],
-      "features": [],
-      "links": {
-        "figma": "https://www.figma.com/design/84O4uO0UtmZ2DAZ1h36cXN/AERA?node-id=0-1&t=topGIvKZISVBDgKF-1",
-        "github": "", 
-        "website": "https://aerakoreanbeauty.com/linkbio/", 
-        "demo": ""
-      },
-      "mockups": [
-        { "src": "assets/img/aera-links/aera-links-1.webp", "alt": "Mockup Aera Página de Enlaces" },
-        { "src": "assets/img/aera-links/aera-links-2.webp", "alt": "Mockup Aera Página de Enlaces" },
-        { "src": "assets/img/aera-links/aera-links-3.webp", "alt": "Mockup Aera Página de Enlaces" },
-        { "src": "assets/img/aera-links/aera-links-4.webp", "alt": "Métricas PageSpeed de Aera Página de Enlaces" }
-      ]
-    },
-    {
       "img": { 
         "src" : "/assets/img/proyecto-aera.webp",
         "alt": "Página de Inicio de Aera Korean Beauty",
@@ -108,6 +81,33 @@
         { "src": "assets/img/aera/aera-3.png", "alt": "Mockup del proyecto de Aera" },
         { "src": "assets/img/aera/aera-4.png", "alt": "Mockup del proyecto de Aera" },
         { "src": "assets/img/aera/aera-5.png", "alt": "Mockup del proyecto de Aera" }
+      ]
+    },
+    {
+      "img": {
+        "src": "/assets/img/proyecto-aera-links.webp",
+        "alt": "Página de Enlaces de Aera Korean Beauty",
+        "title": "Aera – Página de Enlaces"
+      },
+      "title": "Aera – Página de Enlaces",
+      "year": "2025",
+      "tags": ["HTML & Sass", "JavaScript", "Figma"],
+      "description": [
+        "Página de enlaces rápidos desarrollada para <strong>Aera</strong>, que centraliza enlaces clave para su negocio.",
+        "Diseño minimalista alineado a la identidad de la marca. El <strong>mapa de Google Maps</strong> se carga de forma diferida mediante  <code>JavaScript</code> para optimizar el rendimiento."
+      ],
+      "features": [],
+      "links": {
+        "figma": "https://www.figma.com/design/84O4uO0UtmZ2DAZ1h36cXN/AERA?node-id=0-1&t=topGIvKZISVBDgKF-1",
+        "github": "", 
+        "website": "https://aerakoreanbeauty.com/linkbio/", 
+        "demo": ""
+      },
+      "mockups": [
+        { "src": "assets/img/aera-links/aera-links-1.webp", "alt": "Mockup Aera Página de Enlaces" },
+        { "src": "assets/img/aera-links/aera-links-2.webp", "alt": "Mockup Aera Página de Enlaces" },
+        { "src": "assets/img/aera-links/aera-links-3.webp", "alt": "Mockup Aera Página de Enlaces" },
+        { "src": "assets/img/aera-links/aera-links-4.webp", "alt": "Métricas PageSpeed de Aera Página de Enlaces" }
       ]
     },
     {
