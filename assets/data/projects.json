@@ -171,18 +171,6 @@
 
   "other_projects": [
     {
-      "title": "Desafíos Frontend Mentor",
-      "year": "2025",
-      "tags": ["React","Tailwind CSS"],
-      "description": [
-        "Página desarrollada para mostrar una recopilación de desafíos de <b>Frontend Mentor</b>. Incluye un modo claro/oscuro implementado con los hooks <code>useState</code> y <code>useEffect</code>, además de <code>localStorage</code> para recordar la preferencia del usuario. Cada tarjeta presenta las tecnologías utilizadas y enlaces a la demo y al código fuente."
-      ],
-      "links": {
-        "github": "https://github.com/LuisChicaizaDev/challenges-frontend-mentor",
-        "demo": "https://frontend-mentor-luis.vercel.app/"
-      }
-    },
-    {
       "title": "Perfil Bento Tailwind",
       "year": "2025",
       "tags": ["Tailwind CSS", "HTML"],
@@ -205,6 +193,19 @@
       "links": {
         "github": "https://github.com/LuisChicaizaDev/app-tareas-react",
         "demo": "https://app-tareas-react-sage.vercel.app/"
+      }
+    },
+    {
+      "title": "Grupo Salux",
+      "year": "2024",
+      "tags": ["WordPress", "HTML & CSS", "JavaScript"],
+      "description": [
+        "Desarrollo de un sitio WordPress para una <strong>red de clínicas</strong>, con páginas dedicadas para cada centro. Se añadieron funcionalidades con <code>HTML</code>, <code>CSS</code> y <code>JavaScript</code>.",
+        "Proyecto real para un cliente, completado y listo para producción, aunque finalmente no se publicó por decisiones del cliente."
+      ],
+      "links": {
+        "github": "",
+        "demo": "https://dev.gruposalux.clinic"
       }
     },
     {
