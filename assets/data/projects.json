@@ -91,10 +91,9 @@
       },
       "title": "Aera Korean Beauty",
       "year": "2024 | Actualizado 2025",
-      "tags": ["HTML & Sass", "JavaScript", "Figma"],
+      "tags": ["HTML & Sass", "JavaScript", "Figma", "PHP"],
       "description": [
-        "Sitio web <strong>multi-página en producción</strong> para un estudio de cosmética coreana, diseñado desde <code>Figma</code> y desarrollado desde cero con <code>HTML</code>, <code>Sass</code> y <code>JavaScript</code> para una experiencia de usuario <strong>óptima</strong>.",
-        "Enfocado en dar <strong>visibilidad a su marca</strong>, presentación clara de servicios y <strong>diseño responsivo</strong>."
+        "Sitio web para un estudio de cosmética coreana, diseñado desde <code>Figma</code> y desarrollado con <code>HTML</code>, <code>Sass</code> y <code>JavaScript</code>. En 2025 lo migré a <code>PHP</code> para mejorar su mantenimiento y estructura, manteniendo <strong>URLs limpias</strong>, el SEO existente y aplicando redirecciones <strong>301</strong>."
       ],
       "features": [],
       "links": {
@@ -104,11 +103,12 @@
         "demo": ""
       },
       "mockups": [
-        { "src": "assets/img/aera/aera-1.png", "alt": "Mockup del proyecto de Aera" },
-        { "src": "assets/img/aera/aera-2.png", "alt": "Mockup del proyecto de Aera" },
-        { "src": "assets/img/aera/aera-3.png", "alt": "Mockup del proyecto de Aera" },
-        { "src": "assets/img/aera/aera-4.png", "alt": "Mockup del proyecto de Aera" },
-        { "src": "assets/img/aera/aera-5.png", "alt": "Mockup del proyecto de Aera" }
+        { "src": "assets/img/aera/aera-1.webp", "alt": "Mockup del proyecto de Aera" },
+        { "src": "assets/img/aera/aera-2.webp", "alt": "Mockup del proyecto de Aera" },
+        { "src": "assets/img/aera/aera-3.webp", "alt": "Mockup del proyecto de Aera" },
+        { "src": "assets/img/aera/aera-4.webp", "alt": "Mockup del proyecto de Aera" },
+        { "src": "assets/img/aera/aera-5.webp", "alt": "Mockup del proyecto de Aera" },
+        { "src": "assets/img/aera/aera-6.webp", "alt": "Mockup del proyecto de Aera" }
       ]
     },
     {
