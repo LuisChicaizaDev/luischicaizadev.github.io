@@ -2,6 +2,38 @@
   "featured_projects": [
     {
       "img": { 
+        "src" : "/assets/img/proyecto-futbol-app.webp",
+        "alt": "Página pública de Fútbol App",
+        "title": "Fútbol App"
+      },
+      "title": "Fútbol App",
+      "year": "2025",
+      "tags": ["React", "Tailwind CSS", "Supabase", "Next.js", "IA-asistida"],
+      "description": [
+        "Aplicación para <strong>gestionar equipos de fútbol</strong>, desarrollada como <strong>experimento personal</strong> para aprender nuevas tecnologías y construir una app completa en <strong>tiempos reducidos</strong> usando <strong>IA como copiloto</strong>. Incluye panel público, panel admin, CRUD, autenticación y base de datos en Supabase."     
+      ],
+      "features": [],
+      "links": {
+        "figma": "",
+        "github": "https://github.com/LuisChicaizaDev/futbol-app",
+        "website": "",
+        "demo": "https://futbol-app-mu.vercel.app/"
+      },
+      "mockups": [
+        { "src": "assets/img/futbol-app/futbol-app-1.webp", "alt": "Mockup del proyecto de Fútlbol App" },
+        { "src": "assets/img/futbol-app/futbol-app-2.webp", "alt": "Mockup del proyecto de Fútlbol App" },
+        { "src": "assets/img/futbol-app/futbol-app-3.webp", "alt": "Mockup del proyecto de Fútlbol App" },
+        { "src": "assets/img/futbol-app/futbol-app-4.webp", "alt": "Mockup del proyecto de Fútlbol App" },      
+        { "src": "assets/img/futbol-app/futbol-app-5.webp", "alt": "Mockup del proyecto de Fútlbol App" },     
+        { "src": "assets/img/futbol-app/futbol-app-6.webp", "alt": "Mockup del proyecto de Fútlbol App" },      
+        { "src": "assets/img/futbol-app/futbol-app-7.webp", "alt": "Mockup del proyecto de Fútlbol App" },     
+        { "src": "assets/img/futbol-app/futbol-app-8.webp", "alt": "Mockup del proyecto de Fútlbol App" },      
+        { "src": "assets/img/futbol-app/futbol-app-9.webp", "alt": "Mockup del proyecto de Fútlbol App" },     
+        { "src": "assets/img/futbol-app/futbol-app-10.webp", "alt": "Mockup del proyecto de Fútlbol App" }    
+      ]
+    },
+    {
+      "img": { 
         "src" : "/assets/img/proyecto-mr-barber.webp",
         "alt": "Página de login de MR. BARBER",
         "title": "MR. BARBER"
