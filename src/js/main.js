@@ -1,6 +1,21 @@
 'use strict';
 document.addEventListener('DOMContentLoaded', function(){
     iniciarApp();
+
+    // Event listeners para filtros
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            
+            button.classList.add('active');
+            
+            // Obtener el filtro y recargar proyectos
+            const filter = button.getAttribute('data-filter');
+            loadProjects(filter);
+        });
+    });
 });
 
 function iniciarApp() {
@@ -149,16 +164,19 @@ function scrollNav(){
     });
 }
 
-// Cargar los datos de los proyectos 
-async function loadProjects() {
+// Cargar los datos de los proyectos con filtro
+async function loadProjects(filter = 'all') {
     try {
         const response = await fetch('/assets/data/projects.json');
         if (!response.ok) throw new Error(`Error HTTP: ${response.status}`);
 
         const data = await response.json();
 
-        // Proyectos destacados
-        const featuredProjects = data.featured_projects;
+        // Proyectos destacados con filtro
+        let featuredProjects = data.featured_projects;
+        if (filter !== 'all') {
+            featuredProjects = featuredProjects.filter(project => project.category === filter);
+        }
 
         if (!featuredProjects || !Array.isArray(featuredProjects)) {
             throw new Error("Formato de JSON inválido en Proyectos Destacados");

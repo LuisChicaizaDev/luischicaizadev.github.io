@@ -1,6 +1,7 @@
 {
   "featured_projects": [
     {
+      "category": "fullstack",
       "img": { 
         "src" : "/assets/img/proyecto-futbol-app.webp",
         "alt": "Página pública de Fútbol App",
@@ -33,6 +34,7 @@
       ]
     },
     {
+      "category": "fullstack",
       "img": { 
         "src" : "/assets/img/proyecto-mr-barber.webp",
         "alt": "Página de login de MR. BARBER",
@@ -60,6 +62,7 @@
       ]
     },
     {
+      "category": "frontend",
       "img": { 
         "src" : "/assets/img/proyecto-frontend-mentor.webp",
         "alt": "Página de Desafíos Frontend Mentor",
@@ -85,6 +88,7 @@
       ]
     },
     {
+      "category": "fullstack",
       "img": { 
         "src" : "/assets/img/proyecto-boxeo-project.webp",
         "alt": "Página de Inicio de Boxeo Project",
@@ -116,6 +120,7 @@
       ]
     },
     {
+      "category": "frontend",
       "img": { 
         "src" : "/assets/img/proyecto-aera.webp",
         "alt": "Página de Inicio de Aera Korean Beauty",
@@ -144,6 +149,7 @@
       ]
     },
     {
+      "category": "frontend",
       "img": {
         "src": "/assets/img/proyecto-aera-links.webp",
         "alt": "Página de Enlaces de Aera Korean Beauty",
@@ -171,6 +177,7 @@
       ]
     },
     {
+      "category": "frontend",
       "img": { 
         "src" : "/assets/img/proyecto-anexa-luxury-cars.webp",
         "alt": "Página de Inicio de Anexa Luxury Cars",
@@ -200,6 +207,7 @@
       ]
     },
     {
+      "category": "frontend",
       "img": { 
         "src" : "/assets/img/proyecto-portafolio.webp",
         "alt": "Página de Inicio de Mi Portafolio",
