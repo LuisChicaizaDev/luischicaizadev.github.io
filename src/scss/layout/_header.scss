@@ -78,6 +78,19 @@
         animation: custom-shake 3s ease infinite;
         animation-fill-mode: both;
     }
+
+    .new-portfolio-alert {
+        a {
+            background-color: transparent;
+            color: v.$dark-khaki;
+            border: 1px solid v.$dark-khaki;
+
+            &:hover{
+                background-color: v.$dark-khaki;
+                color: v.$black !important;
+            }
+        }
+    }
     
 }
 
